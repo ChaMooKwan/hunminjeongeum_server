@@ -25,4 +25,25 @@ class QuizWordRepository{
             .from("quiz_word")
             .insert(quizWords)
     }
+
+    suspend fun getQuizWordsByCategory(
+        categoryId: Int
+    ): List<QuizWordDto> {
+        return supabase
+            .from("quiz_word")
+            .select {
+                filter {
+                    eq("category_id", categoryId)
+                }
+            }
+            .decodeList<QuizWordDto>()
+    }
+
+    suspend fun getRandomQuizWord(
+        categoryId: Int
+    ): QuizWordDto? {
+        return getQuizWordsByCategory(categoryId)
+            .randomOrNull()
+    }
+
 }
