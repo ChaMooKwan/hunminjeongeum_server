@@ -1,5 +1,6 @@
 package kr.ac.sunmoon.hunminjeongeum_server
 
+import kr.ac.sunmoon.hunminjeongeum_server.core.util.KoreanInitial
 import kr.ac.sunmoon.hunminjeongeum_server.data.remote.countries.CountriesApiClient
 import kotlinx.coroutines.runBlocking
 
@@ -25,7 +26,11 @@ fun main() = runBlocking {
         println()
 
         koreanCountryNames.forEachIndexed { index, countryName ->
-            println("${index + 1}. $countryName")
+            val initials = KoreanInitial.makeInitials(countryName)
+
+            println(
+                "${index + 1}. $countryName / $initials"
+            )
         }
 
     } catch (e: Exception) {
