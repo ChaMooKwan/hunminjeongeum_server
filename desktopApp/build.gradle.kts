@@ -21,7 +21,8 @@ dependencies {
 
 compose.desktop {
     application {
-        mainClass = "kr.ac.sunmoon.hunminjeongeum_server.MainKt"
+        //mainClass = "kr.ac.sunmoon.hunminjeongeum_server.MainKt"
+        mainClass = "kr.ac.sunmoon.hunminjeongeum_server.CountrySeederKt"
 
         nativeDistributions {
             targetFormats(

@@ -25,6 +25,9 @@ kotlin {
             implementation(libs.ktor.client.content.negotiation)
             implementation(libs.ktor.serialization.kotlinx.json)
 
+            // Supabase
+            implementation(libs.supabase.postgrest)
+
             // Kotlin Serialization
             implementation(libs.kotlinx.serialization.json)
         }

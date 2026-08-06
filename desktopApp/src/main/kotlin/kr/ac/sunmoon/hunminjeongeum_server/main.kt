@@ -20,7 +20,7 @@ fun main() = runBlocking {
             .sorted()
 
         println()
-        println("===== 한국어 국가 목록 =====")
+        println("===== MAIN한국어 국가 목록 =====")
         println("총 ${koreanCountryNames.size}개")
         println()
 

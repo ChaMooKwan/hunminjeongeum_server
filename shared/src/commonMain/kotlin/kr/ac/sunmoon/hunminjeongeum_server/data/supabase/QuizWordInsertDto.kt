@@ -1,2 +1,14 @@
 package kr.ac.sunmoon.hunminjeongeum_server.data.supabase
 
+import kotlinx.serialization.SerialName
+import kotlinx.serialization.Serializable
+
+@Serializable
+data class QuizWordInsertDto(
+    @SerialName("category_id")
+    val categoryId: Int,
+    val word: String,
+
+    @SerialName("word_initial")
+    val wordInitial: String,
+)
