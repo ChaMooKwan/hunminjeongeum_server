@@ -13,7 +13,7 @@ fun main() = runBlocking {
     val repository = QuizWordRepository()
 
     // Supabase category 테이블의 국가 카테고리 ID
-    val categoryId = 2
+    val quizCategory = 2
 
     try {
         val allCountries = countriesApi.getAllCountries()
@@ -29,9 +29,9 @@ fun main() = runBlocking {
             .sorted()
             .map { countryName ->
                 QuizWordInsertDto(
-                    categoryId = categoryId,
+                    quizCategory = quizCategory,
                     word = countryName,
-                    wordInitial = KoreanInitial.makeInitials(countryName)
+                    wordQuiz = KoreanInitial.makeInitials(countryName)
                 )
             }
 
@@ -42,7 +42,7 @@ fun main() = runBlocking {
 
         quizWords.forEachIndexed { index, quizWord ->
             println(
-                "${index + 1}. $quizWord.word / ${quizWord.wordInitial}"
+                "${index + 1}. $quizWord.word / ${quizWord.wordQuiz}"
             )
         }
 

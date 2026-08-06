@@ -6,9 +6,9 @@ import kotlinx.serialization.Serializable
 @Serializable
 data class QuizWordInsertDto(
     @SerialName("category_id")
-    val categoryId: Int,
+    val quizCategory: Int,
     val word: String,
 
     @SerialName("word_initial")
-    val wordInitial: String,
+    val wordQuiz: String,
 )

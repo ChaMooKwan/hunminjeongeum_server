@@ -27,22 +27,22 @@ class QuizWordRepository{
     }
 
     suspend fun getQuizWordsByCategory(
-        categoryId: Int
+        quizCategory: Int
     ): List<QuizWordDto> {
         return supabase
             .from("quiz_word")
             .select {
                 filter {
-                    eq("category_id", categoryId)
+                    eq("category_id", quizCategory)
                 }
             }
             .decodeList<QuizWordDto>()
     }
 
     suspend fun getRandomQuizWord(
-        categoryId: Int
+        quizCategory: Int
     ): QuizWordDto? {
-        return getQuizWordsByCategory(categoryId)
+        return getQuizWordsByCategory(quizCategory)
             .randomOrNull()
     }
 

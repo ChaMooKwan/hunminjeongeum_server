@@ -17,7 +17,7 @@ fun main() = runBlocking {
 
     println("===== 랜덤 문제 =====")
     println("ID : ${quiz.id}")
-    println("카테고리 : ${quiz.categoryId}")
-    println("초성 : ${quiz.wordInitial}")
+    println("카테고리 : ${quiz.quizCategory}")
+    println("초성 : ${quiz.wordQuiz}")
     println("정답 : ${quiz.word}")
 }
