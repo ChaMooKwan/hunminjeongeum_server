@@ -17,6 +17,7 @@ class ServerConnection(
     @Volatile
     private var running = true
 
+    private val game = Game()
     fun start() {
         serverSocket = ServerSocket(port)
         println("=== Chatting Server Start ===")
@@ -30,7 +31,7 @@ class ServerConnection(
         println("Waiting Room Created")
     }
 
-    fun makeWaitingRoom(){
+    private fun makeWaitingRoom(){
         val server = serverSocket ?: return
 
         while (true) {
@@ -53,7 +54,7 @@ class ServerConnection(
         }
     }
 
-    fun addClient(socket: Socket){
+    private fun addClient(socket: Socket){
         val reader = socket.getInputStream().bufferedReader()
         val writer = PrintWriter(socket.getOutputStream(), true)
         var client: ClientConnection? = null
@@ -70,13 +71,20 @@ class ServerConnection(
                 while (running) {
                     val message = reader.readLine()
                     if (message == "/startGame,"){
-                        // SQL 사용해서 DB에서 단어 5개 끌어오기. 이후 그걸 클라이언트에게 전송 // '/question,'로 감
-                        // 타이머 '/timer,'로 1초간격으로 전송
-                        // 이 모든걸 startGame() 호출로 처리
                         startGame()
                     }
                     else if (message == "/hint,"){
                         // LLM API 사용해서 힌트 전송 "/hintAnswer,'
+                    }
+                    else if (message == "/chat,"){
+                        val chatMessage = encodedMessage(message)
+                        if (game.isStarted &&
+                            chatMessage.message == game.questions[game.getQ()].wordQuiz){
+                            broadcast("/giveScore,${chatMessage.userName}")
+                            //문제 맞추는 이펙트 호출..? 은 클라이언트 쪽에서 알아서...
+                            game.getQ()
+                            giveQuestion()
+                        }
                     }
                 }
             }
@@ -91,26 +99,20 @@ class ServerConnection(
         }
     }
 
-    fun startGame() {
-        playGame()
-    }
-
-    fun playGame() {
-        /*
-        클라이언트는 대기창에서 스레드로 시작신호(/playGame)을 수신대기하다가 수신하면 다음 게임 창으로 넘어감
-        [클라이언트가 받으면 채팅 말고 다른 행동을 하게되는 메시지]
-        1. /playGame : 게임 시작 화면으로 전환
-        2. '/timer,'가 포함된 문자열: '/timer,'를 삭제하고 남은 시간을 초단위로 받아 timer 변수에 반영
-        3.
-         */
-        // 단어 불러오기
-        broadcast("/playGame,")
-
+    private fun startGame() {
+        CoroutineScope(Dispatchers.IO).launch { // 단어 불러오기
+            game.getRandomQuiz(2,5)
+            println("question added in the server!")
+        }
+        game.isStarted = true
+        broadcast("/playGame,") // 다음 화면으로 넘어가라고 신호를 주는 것
+        giveQuestion()
         startTimer()
     }
 
+
     // 시간을 세는 함수
-    fun timer(totalSeconds: Int = 300): Flow<Int> = flow {
+    private fun timer(totalSeconds: Int = 300): Flow<Int> = flow {
         var remaining = totalSeconds
 
         while (remaining >= 0) {
@@ -120,7 +122,7 @@ class ServerConnection(
         }
     }
     // 시간을 보내는 함수 문자열에 '/sync,'가 포함되어 있으면 다음에 오는 숫자는 동기화 시간으로(timer 변수)
-    fun startTimer(){
+    private fun startTimer(){
         CoroutineScope(Dispatchers.Default).launch {
             timer().collect { time ->
                 broadcast("/timer,${time}")
@@ -147,5 +149,15 @@ class ServerConnection(
         }
         encodedNames = encodedNames.dropLast(1)
         return encodedNames
+    }
+
+    private fun encodedMessage(message: String): ChatMessage{
+        val list: List<String> = message.split(',')
+        val chatMessage = ChatMessage(list[1],list[2])
+        return chatMessage
+    }
+
+    private fun giveQuestion(){
+        broadcast("/question,${game.questions[game.getQ()]}")
     }
 }
