@@ -25,6 +25,9 @@ class ServerConnection(
 
         room = Room()
         println("Room Created")
+
+        makeWaitingRoom()
+        println("Waiting Room Created")
     }
 
     fun makeWaitingRoom(){
@@ -65,10 +68,15 @@ class ServerConnection(
 
             thread(isDaemon = true) {
                 while (running) {
-                    val readSignal = reader.readLine()
-                    if (readSignal == "/startGame"){
-                        running = false
+                    val message = reader.readLine()
+                    if (message == "/startGame,"){
+                        // SQL 사용해서 DB에서 단어 5개 끌어오기. 이후 그걸 클라이언트에게 전송 // '/question,'로 감
+                        // 타이머 '/timer,'로 1초간격으로 전송
+                        // 이 모든걸 startGame() 호출로 처리
                         startGame()
+                    }
+                    else if (message == "/hint,"){
+                        // LLM API 사용해서 힌트 전송 "/hintAnswer,'
                     }
                 }
             }
@@ -92,11 +100,12 @@ class ServerConnection(
         클라이언트는 대기창에서 스레드로 시작신호(/playGame)을 수신대기하다가 수신하면 다음 게임 창으로 넘어감
         [클라이언트가 받으면 채팅 말고 다른 행동을 하게되는 메시지]
         1. /playGame : 게임 시작 화면으로 전환
-        2. '/sync,'가 포함된 문자열: '/sync,'를 삭제하고 남은 시간을 초단위로 받아 timer 변수에 반영
+        2. '/timer,'가 포함된 문자열: '/timer,'를 삭제하고 남은 시간을 초단위로 받아 timer 변수에 반영
         3.
          */
         // 단어 불러오기
-        broadcast("/playGame")
+        broadcast("/playGame,")
+
         startTimer()
     }
 
@@ -114,7 +123,7 @@ class ServerConnection(
     fun startTimer(){
         CoroutineScope(Dispatchers.Default).launch {
             timer().collect { time ->
-                broadcast("/sync,${time}")
+                broadcast("/timer,${time}")
             }
         }
     }
