@@ -7,8 +7,9 @@ import kr.ac.sunmoon.hunminjeongeum_server.data.supabase.QuizWordRepository
 fun main() = runBlocking {
 
     val repository = QuizWordRepository()
-
-    val quiz = repository.getRandomQuizWord(2)
+    // 카테고리 1 = 과일, 2 = 국가
+    val quizCategory = 1
+    val quiz = repository.getRandomQuizWord(quizCategory)
 
     if (quiz == null) {
         println("국가 문제가 없습니다.")
