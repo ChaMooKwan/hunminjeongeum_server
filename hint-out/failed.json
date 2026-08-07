@@ -1,0 +1,395 @@
+[
+    {
+        "id": 10,
+        "word": "바나나",
+        "category": "과일",
+        "syllable_count": 3,
+        "ok": false,
+        "reason": "[특징힌트(중)] 너무 깁니다 (29자) (후보 1)",
+        "attempts": 2,
+        "latency_ms": 2735,
+        "filled": 1,
+        "slots": 2,
+        "slot_promoted": false,
+        "easy": "노랑과 길쭉한 모습이 떠오르나요?",
+        "normal": "",
+        "hard": "",
+        "word_hints": [
+            "ㅂ나ㄴ"
+        ],
+        "rejected_candidates": [
+            "[특징힌트(중)] 너무 깁니다 (30자) (후보 1)",
+            "[특징힌트(중)] 너무 깁니다 (27자) (후보 2)",
+            "[특징힌트(상)] 너무 깁니다 (25자) (후보 1)",
+            "[특징힌트(상)] 너무 깁니다 (31자) (후보 2)"
+        ],
+        "generated_by": "gpt-4.1-nano/v5"
+    },
+    {
+        "id": 12,
+        "word": "블루베리",
+        "category": "과일",
+        "syllable_count": 4,
+        "ok": false,
+        "reason": "[특징힌트(상)] 너무 깁니다 (25자) (후보 1)",
+        "attempts": 2,
+        "latency_ms": 2526,
+        "filled": 2,
+        "slots": 3,
+        "slot_promoted": false,
+        "easy": "작고 파란 열매입니다.",
+        "normal": "작고 푸른색이며 달콤한 맛이 납니다.",
+        "hard": "",
+        "word_hints": [
+            "ㅂ루ㅂㄹ",
+            "ㅂ루베ㄹ"
+        ],
+        "rejected_candidates": [
+            "[특징힌트(상)] 너무 깁니다 (25자) (후보 1)",
+            "[특징힌트(상)] 너무 깁니다 (26자) (후보 2)"
+        ],
+        "generated_by": "gpt-4.1-nano/v5"
+    },
+    {
+        "id": 16,
+        "word": "프랑스",
+        "category": "나라",
+        "syllable_count": 3,
+        "ok": false,
+        "reason": "[특징힌트(중)] 너무 깁니다 (23자) (후보 1)",
+        "attempts": 2,
+        "latency_ms": 2521,
+        "filled": 1,
+        "slots": 2,
+        "slot_promoted": false,
+        "easy": "이 나라는 와인으로 유명합니다.",
+        "normal": "",
+        "hard": "",
+        "word_hints": [
+            "ㅍ랑ㅅ"
+        ],
+        "rejected_candidates": [
+            "[특징힌트(중)] 너무 깁니다 (27자) (후보 1)",
+            "[특징힌트(중)] 너무 깁니다 (24자) (후보 2)",
+            "[특징힌트(상)] 너무 깁니다 (31자) (후보 1)",
+            "[특징힌트(상)] 너무 깁니다 (30자) (후보 2)"
+        ],
+        "generated_by": "gpt-4.1-nano/v5"
+    },
+    {
+        "id": 17,
+        "word": "이탈리아",
+        "category": "나라",
+        "syllable_count": 4,
+        "ok": false,
+        "reason": "[특징힌트(중)] 너무 깁니다 (24자) (후보 1)",
+        "attempts": 2,
+        "latency_ms": 2769,
+        "filled": 2,
+        "slots": 3,
+        "slot_promoted": true,
+        "easy": "피자와 파스타의 본고장입니다.",
+        "normal": "",
+        "hard": "로마 제국의 중심이었던 나라입니다.",
+        "word_hints": [
+            "ㅇㅌㄹ아",
+            "ㅇ탈ㄹ아"
+        ],
+        "rejected_candidates": [
+            "[특징힌트(중)] 너무 깁니다 (28자) (후보 1)",
+            "[특징힌트(중)] 너무 깁니다 (32자) (후보 2)"
+        ],
+        "generated_by": "gpt-4.1-nano/v5"
+    },
+    {
+        "id": 19,
+        "word": "네덜란드",
+        "category": "나라",
+        "syllable_count": 4,
+        "ok": false,
+        "reason": "[특징힌트(중)] 너무 깁니다 (23자) (후보 1)",
+        "attempts": 2,
+        "latency_ms": 2170,
+        "filled": 2,
+        "slots": 3,
+        "slot_promoted": false,
+        "easy": "튤립이 유명한 곳입니다.",
+        "normal": "서유럽에 위치한 나라입니다.",
+        "hard": "",
+        "word_hints": [
+            "네ㄷㄹㄷ",
+            "네ㄷ란ㄷ"
+        ],
+        "rejected_candidates": [
+            "[특징힌트(상)] 너무 깁니다 (23자) (후보 1)",
+            "[특징힌트(상)] 너무 깁니다 (23자) (후보 2)"
+        ],
+        "generated_by": "gpt-4.1-nano/v5"
+    },
+    {
+        "id": 20,
+        "word": "오스트리아",
+        "category": "나라",
+        "syllable_count": 5,
+        "ok": false,
+        "reason": "[특징힌트(중)] 너무 깁니다 (24자) (후보 1)",
+        "attempts": 2,
+        "latency_ms": 2156,
+        "filled": 2,
+        "slots": 3,
+        "slot_promoted": true,
+        "easy": "알프스 산이 보이는 곳입니다.",
+        "normal": "",
+        "hard": "옛 성과 궁전이 많이 남아 있습니다.",
+        "word_hints": [
+            "ㅇㅅ트ㄹㅇ",
+            "ㅇㅅ트ㄹ아"
+        ],
+        "rejected_candidates": [
+            "[특징힌트(중)] 너무 깁니다 (27자) (후보 1)",
+            "[특징힌트(중)] 너무 깁니다 (23자) (후보 2)"
+        ],
+        "generated_by": "gpt-4.1-nano/v5"
+    },
+    {
+        "id": 26,
+        "word": "비빔밥",
+        "category": "음식",
+        "syllable_count": 3,
+        "ok": false,
+        "reason": "[특징힌트(중)] 너무 깁니다 (25자) (후보 1)",
+        "attempts": 2,
+        "latency_ms": 2446,
+        "filled": 1,
+        "slots": 2,
+        "slot_promoted": false,
+        "easy": "밥 위에 여러 가지가 얹혀 있죠.",
+        "normal": "",
+        "hard": "",
+        "word_hints": [
+            "ㅂ빔ㅂ"
+        ],
+        "rejected_candidates": [
+            "[특징힌트(중)] 너무 깁니다 (39자) (후보 1)",
+            "[특징힌트(중)] 너무 깁니다 (34자) (후보 2)",
+            "[특징힌트(상)] 너무 깁니다 (37자) (후보 1)",
+            "[특징힌트(상)] 너무 깁니다 (39자) (후보 2)"
+        ],
+        "generated_by": "gpt-4.1-nano/v5"
+    },
+    {
+        "id": 29,
+        "word": "된장찌개",
+        "category": "음식",
+        "syllable_count": 4,
+        "ok": false,
+        "reason": "[특징힌트(하)] 너무 깁니다 (24자) (후보 1)",
+        "attempts": 2,
+        "latency_ms": 2775,
+        "filled": 1,
+        "slots": 3,
+        "slot_promoted": false,
+        "easy": "한국인 밥상 필수반찬 같죠?",
+        "normal": "",
+        "hard": "",
+        "word_hints": [
+            "ㄷ장ㅉㄱ",
+            "ㄷ장찌ㄱ"
+        ],
+        "rejected_candidates": [
+            "[특징힌트(중)] 정답 누출: '찌개' 가 힌트에 포함됨 (후보 1)",
+            "[특징힌트(중)] 너무 깁니다 (23자) (후보 2)",
+            "[특징힌트(상)] 너무 깁니다 (21자) (후보 1)",
+            "[특징힌트(상)] 너무 깁니다 (25자) (후보 2)"
+        ],
+        "generated_by": "gpt-4.1-nano/v5"
+    },
+    {
+        "id": 40,
+        "word": "카멜레온",
+        "category": "동물",
+        "syllable_count": 4,
+        "ok": false,
+        "reason": "[특징힌트(상)] 너무 깁니다 (23자) (후보 1)",
+        "attempts": 2,
+        "latency_ms": 2124,
+        "filled": 2,
+        "slots": 3,
+        "slot_promoted": false,
+        "easy": "변색하는 도마뱀입니다.",
+        "normal": "사는 곳은 건조하고 모래가 많습니다.",
+        "hard": "",
+        "word_hints": [
+            "ㅋㅁ레ㅇ",
+            "ㅋㅁ레온"
+        ],
+        "rejected_candidates": [
+            "[특징힌트(상)] 너무 깁니다 (23자) (후보 1)",
+            "[특징힌트(상)] 너무 깁니다 (27자) (후보 2)"
+        ],
+        "generated_by": "gpt-4.1-nano/v5"
+    },
+    {
+        "id": 42,
+        "word": "일석이조",
+        "category": "사자성어",
+        "syllable_count": 4,
+        "ok": false,
+        "reason": "[특징힌트(하)] 너무 깁니다 (21자) (후보 1)",
+        "attempts": 2,
+        "latency_ms": 3119,
+        "filled": 0,
+        "slots": 3,
+        "slot_promoted": false,
+        "easy": "",
+        "normal": "",
+        "hard": "",
+        "word_hints": [
+            "ㅇㅅ이ㅈ",
+            "ㅇ석이ㅈ"
+        ],
+        "rejected_candidates": [
+            "[특징힌트(하)] 너무 깁니다 (22자) (후보 1)",
+            "[특징힌트(하)] 너무 깁니다 (27자) (후보 2)",
+            "[특징힌트(중)] 너무 깁니다 (46자) (후보 1)",
+            "[특징힌트(중)] 너무 깁니다 (40자) (후보 2)",
+            "[특징힌트(상)] 너무 깁니다 (47자) (후보 1)",
+            "[특징힌트(상)] 너무 깁니다 (51자) (후보 2)"
+        ],
+        "generated_by": "gpt-4.1-nano/v5"
+    },
+    {
+        "id": 43,
+        "word": "견물생심",
+        "category": "사자성어",
+        "syllable_count": 4,
+        "ok": false,
+        "reason": "[특징힌트(상)] 너무 깁니다 (22자) (후보 1)",
+        "attempts": 2,
+        "latency_ms": 2385,
+        "filled": 2,
+        "slots": 3,
+        "slot_promoted": false,
+        "easy": "보는 것만으로 욕심이 생긴다.",
+        "normal": "실제 이야기에 나온 교훈입니다.",
+        "hard": "",
+        "word_hints": [
+            "견ㅁㅅㅅ",
+            "견ㅁㅅ심"
+        ],
+        "rejected_candidates": [
+            "[특징힌트(상)] 너무 깁니다 (22자) (후보 1)",
+            "[특징힌트(상)] 너무 깁니다 (25자) (후보 2)"
+        ],
+        "generated_by": "gpt-4.1-nano/v5"
+    },
+    {
+        "id": 44,
+        "word": "오리무중",
+        "category": "사자성어",
+        "syllable_count": 4,
+        "ok": false,
+        "reason": "[특징힌트(하)] 너무 깁니다 (21자) (후보 1)",
+        "attempts": 2,
+        "latency_ms": 2528,
+        "filled": 1,
+        "slots": 3,
+        "slot_promoted": false,
+        "easy": "길을 잃고 헤매는 모습이 떠오릅니다.",
+        "normal": "",
+        "hard": "",
+        "word_hints": [
+            "ㅇㄹ무ㅈ",
+            "ㅇ리무ㅈ"
+        ],
+        "rejected_candidates": [
+            "[특징힌트(하)] 너무 깁니다 (23자) (후보 1)",
+            "[특징힌트(중)] 너무 깁니다 (25자) (후보 1)",
+            "[특징힌트(중)] 너무 깁니다 (26자) (후보 2)",
+            "[특징힌트(상)] 너무 깁니다 (32자) (후보 1)",
+            "[특징힌트(상)] 너무 깁니다 (33자) (후보 2)"
+        ],
+        "generated_by": "gpt-4.1-nano/v5"
+    },
+    {
+        "id": 46,
+        "word": "새옹지마",
+        "category": "사자성어",
+        "syllable_count": 4,
+        "ok": false,
+        "reason": "[특징힌트(하)] 너무 깁니다 (22자) (후보 1)",
+        "attempts": 2,
+        "latency_ms": 2412,
+        "filled": 2,
+        "slots": 3,
+        "slot_promoted": false,
+        "easy": "변한 듯 변하지 않는 이야기입니다.",
+        "normal": "오래전 이야기에 나오는 교훈입니다.",
+        "hard": "",
+        "word_hints": [
+            "새ㅇㅈㅁ",
+            "새옹ㅈㅁ"
+        ],
+        "rejected_candidates": [
+            "[특징힌트(중)] 너무 깁니다 (23자) (후보 1)",
+            "[특징힌트(상)] 너무 깁니다 (25자) (후보 1)",
+            "[특징힌트(상)] 너무 깁니다 (26자) (후보 2)"
+        ],
+        "generated_by": "gpt-4.1-nano/v5"
+    },
+    {
+        "id": 47,
+        "word": "자업자득",
+        "category": "사자성어",
+        "syllable_count": 4,
+        "ok": false,
+        "reason": "[특징힌트(하)] 너무 깁니다 (22자) (후보 1)",
+        "attempts": 2,
+        "latency_ms": 2517,
+        "filled": 1,
+        "slots": 3,
+        "slot_promoted": false,
+        "easy": "잘못했으면 책임지는 게 당연하죠.",
+        "normal": "",
+        "hard": "",
+        "word_hints": [
+            "ㅈㅇ자ㄷ",
+            "ㅈ업자ㄷ"
+        ],
+        "rejected_candidates": [
+            "[특징힌트(하)] 너무 깁니다 (21자) (후보 1)",
+            "[특징힌트(중)] 너무 깁니다 (29자) (후보 1)",
+            "[특징힌트(중)] 너무 깁니다 (44자) (후보 2)",
+            "[특징힌트(상)] 너무 깁니다 (36자) (후보 1)",
+            "[특징힌트(상)] 너무 깁니다 (38자) (후보 2)"
+        ],
+        "generated_by": "gpt-4.1-nano/v5"
+    },
+    {
+        "id": 48,
+        "word": "형설지공",
+        "category": "사자성어",
+        "syllable_count": 4,
+        "ok": false,
+        "reason": "[특징힌트(중)] 너무 깁니다 (21자) (후보 1)",
+        "attempts": 2,
+        "latency_ms": 2588,
+        "filled": 1,
+        "slots": 3,
+        "slot_promoted": false,
+        "easy": "밤하늘의 별빛 같습니다.",
+        "normal": "",
+        "hard": "",
+        "word_hints": [
+            "ㅎ설ㅈㄱ",
+            "형설ㅈㄱ"
+        ],
+        "rejected_candidates": [
+            "[특징힌트(중)] 너무 깁니다 (21자) (후보 1)",
+            "[특징힌트(중)] 너무 깁니다 (28자) (후보 2)",
+            "[특징힌트(상)] 너무 깁니다 (29자) (후보 1)",
+            "[특징힌트(상)] 너무 깁니다 (42자) (후보 2)"
+        ],
+        "generated_by": "gpt-4.1-nano/v5"
+    }
+]
