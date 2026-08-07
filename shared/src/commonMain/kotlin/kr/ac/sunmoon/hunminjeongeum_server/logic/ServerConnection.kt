@@ -48,7 +48,7 @@ class ServerConnection(
 
                 addClient(socket)
 
-            } catch(e: Exception) {
+            } catch (e: Exception) {
                 println("error in waitingRoom() : ${e.message}")
             }
         }
@@ -79,10 +79,14 @@ class ServerConnection(
                     else if (message == "/chat,"){
                         val chatMessage = encodedMessage(message)
                         if (game.isStarted &&
-                            chatMessage.message == game.questions[game.getQ()].wordQuiz){
-                            broadcast("/giveScore,${chatMessage.userName}")
+                            chatMessage.message == game.questions[game.getQ()].word){
+                            val i = room.getClients().indexOfFirst{
+                                chatMessage.userName == it.userName
+                            }
+                            game.scores[i] = game.scores[i] + 10
+                            broadcastScores(game.scores)
                             //문제 맞추는 이펙트 호출..? 은 클라이언트 쪽에서 알아서...
-                            game.getQ()
+                            game.nextQ()
                             giveQuestion()
                         }
                     }
@@ -105,6 +109,9 @@ class ServerConnection(
             println("question added in the server!")
         }
         game.isStarted = true
+        repeat(room.getSize()) { // 방인원 만큼 점수 리스트 초기화
+            game.scores.add(0)
+        }
         broadcast("/playGame,") // 다음 화면으로 넘어가라고 신호를 주는 것
         giveQuestion()
         startTimer()
@@ -140,10 +147,18 @@ class ServerConnection(
             }
         }
     }
+    private fun broadcastScores(scores: List<Int>) {
+        val scoresMessage = StringBuilder("/score,")
+        scores.forEach { score ->
+            scoresMessage.append("$score,")
+        }
+        val scoreMessage = scoresMessage.dropLast(1).toString()
+        broadcast(scoreMessage)
+    }
 
     private fun encodedName(): String{
         val clients = room.getClients()
-        var encodedNames: String = ""
+        var encodedNames: String = "/userNames,"
         for (client in clients) {
             encodedNames = encodedNames + client.userName + ","
         }
@@ -158,6 +173,6 @@ class ServerConnection(
     }
 
     private fun giveQuestion(){
-        broadcast("/question,${game.questions[game.getQ()]}")
+        broadcast("/question,${game.questions[game.getQ()].wordQuiz}")
     }
 }
