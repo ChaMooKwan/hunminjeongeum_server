@@ -1,0 +1,842 @@
+[
+  {
+    "english": "Apple",
+    "korean": "사과",
+    "initial": "ㅅㄱ",
+    "category": "fruit"
+  },
+  {
+    "english": "Apricot",
+    "korean": "살구",
+    "initial": "ㅅㄱ",
+    "category": "fruit"
+  },
+  {
+    "english": "Avocado",
+    "korean": "아보카도",
+    "initial": "ㅇㅂㅋㄷ",
+    "category": "fruit"
+  },
+  {
+    "english": "Banana",
+    "korean": "바나나",
+    "initial": "ㅂㄴㄴ",
+    "category": "fruit"
+  },
+  {
+    "english": "Blackberry",
+    "korean": "블랙베리",
+    "initial": "ㅂㄹㅂㄹ",
+    "category": "fruit"
+  },
+  {
+    "english": "Blueberry",
+    "korean": "블루베리",
+    "initial": "ㅂㄹㅂㄹ",
+    "category": "fruit"
+  },
+  {
+    "english": "Boysenberry",
+    "korean": "보이젠베리",
+    "initial": "ㅂㅇㅈㅂㄹ",
+    "category": "fruit"
+  },
+  {
+    "english": "Breadfruit",
+    "korean": "빵나무열매",
+    "initial": "ㅃㄴㅁㅇㅁ",
+    "category": "fruit"
+  },
+  {
+    "english": "Cantaloupe",
+    "korean": "칸탈루프",
+    "initial": "ㅋㅌㄹㅍ",
+    "category": "fruit"
+  },
+  {
+    "english": "Carambola",
+    "korean": "스타프루트",
+    "initial": "ㅅㅌㅍㄹㅌ",
+    "category": "fruit"
+  },
+  {
+    "english": "Cherry",
+    "korean": "체리",
+    "initial": "ㅊㄹ",
+    "category": "fruit"
+  },
+  {
+    "english": "Clementine",
+    "korean": "클레멘타인",
+    "initial": "ㅋㄹㅁㅌㅇ",
+    "category": "fruit"
+  },
+  {
+    "english": "Coconut",
+    "korean": "코코넛",
+    "initial": "ㅋㅋㄴ",
+    "category": "fruit"
+  },
+  {
+    "english": "Cranberry",
+    "korean": "크랜베리",
+    "initial": "ㅋㄹㅂㄹ",
+    "category": "fruit"
+  },
+  {
+    "english": "Currant",
+    "korean": "커런트",
+    "initial": "ㅋㄹㅌ",
+    "category": "fruit"
+  },
+  {
+    "english": "Date",
+    "korean": "대추야자",
+    "initial": "ㄷㅊㅇㅈ",
+    "category": "fruit"
+  },
+  {
+    "english": "Dragon Fruit",
+    "korean": "용과",
+    "initial": "ㅇㄱ",
+    "category": "fruit"
+  },
+  {
+    "english": "Durian",
+    "korean": "두리안",
+    "initial": "ㄷㄹㅇ",
+    "category": "fruit"
+  },
+  {
+    "english": "Elderberry",
+    "korean": "엘더베리",
+    "initial": "ㅇㄷㅂㄹ",
+    "category": "fruit"
+  },
+  {
+    "english": "Feijoa",
+    "korean": "페이조아",
+    "initial": "ㅍㅇㅈㅇ",
+    "category": "fruit"
+  },
+  {
+    "english": "Fig",
+    "korean": "무화과",
+    "initial": "ㅁㅎㄱ",
+    "category": "fruit"
+  },
+  {
+    "english": "Goji Berry",
+    "korean": "고지베리",
+    "initial": "ㄱㅈㅂㄹ",
+    "category": "fruit"
+  },
+  {
+    "english": "Gooseberry",
+    "korean": "구스베리",
+    "initial": "ㄱㅅㅂㄹ",
+    "category": "fruit"
+  },
+  {
+    "english": "Grape",
+    "korean": "포도",
+    "initial": "ㅍㄷ",
+    "category": "fruit"
+  },
+  {
+    "english": "Grapefruit",
+    "korean": "자몽",
+    "initial": "ㅈㅁ",
+    "category": "fruit"
+  },
+  {
+    "english": "Guava",
+    "korean": "구아바",
+    "initial": "ㄱㅇㅂ",
+    "category": "fruit"
+  },
+  {
+    "english": "Honeydew",
+    "korean": "허니듀",
+    "initial": "ㅎㄴㄷ",
+    "category": "fruit"
+  },
+  {
+    "english": "Jackfruit",
+    "korean": "잭프루트",
+    "initial": "ㅈㅍㄹㅌ",
+    "category": "fruit"
+  },
+  {
+    "english": "Jujube",
+    "korean": "대추",
+    "initial": "ㄷㅊ",
+    "category": "fruit"
+  },
+  {
+    "english": "Kiwi",
+    "korean": "키위",
+    "initial": "ㅋㅇ",
+    "category": "fruit"
+  },
+  {
+    "english": "Kumquat",
+    "korean": "금귤",
+    "initial": "ㄱㄱ",
+    "category": "fruit"
+  },
+  {
+    "english": "Lemon",
+    "korean": "레몬",
+    "initial": "ㄹㅁ",
+    "category": "fruit"
+  },
+  {
+    "english": "Lime",
+    "korean": "라임",
+    "initial": "ㄹㅇ",
+    "category": "fruit"
+  },
+  {
+    "english": "Lingonberry",
+    "korean": "링곤베리",
+    "initial": "ㄹㄱㅂㄹ",
+    "category": "fruit"
+  },
+  {
+    "english": "Longan",
+    "korean": "용안",
+    "initial": "ㅇㅇ",
+    "category": "fruit"
+  },
+  {
+    "english": "Loquat",
+    "korean": "비파",
+    "initial": "ㅂㅍ",
+    "category": "fruit"
+  },
+  {
+    "english": "Lychee",
+    "korean": "리치",
+    "initial": "ㄹㅊ",
+    "category": "fruit"
+  },
+  {
+    "english": "Mandarin",
+    "korean": "만다린",
+    "initial": "ㅁㄷㄹ",
+    "category": "fruit"
+  },
+  {
+    "english": "Mango",
+    "korean": "망고",
+    "initial": "ㅁㄱ",
+    "category": "fruit"
+  },
+  {
+    "english": "Mangosteen",
+    "korean": "망고스틴",
+    "initial": "ㅁㄱㅅㅌ",
+    "category": "fruit"
+  },
+  {
+    "english": "Mulberry",
+    "korean": "오디",
+    "initial": "ㅇㄷ",
+    "category": "fruit"
+  },
+  {
+    "english": "Nectarine",
+    "korean": "천도복숭아",
+    "initial": "ㅊㄷㅂㅅㅇ",
+    "category": "fruit"
+  },
+  {
+    "english": "Olive",
+    "korean": "올리브",
+    "initial": "ㅇㄹㅂ",
+    "category": "fruit"
+  },
+  {
+    "english": "Orange",
+    "korean": "오렌지",
+    "initial": "ㅇㄹㅈ",
+    "category": "fruit"
+  },
+  {
+    "english": "Papaya",
+    "korean": "파파야",
+    "initial": "ㅍㅍㅇ",
+    "category": "fruit"
+  },
+  {
+    "english": "Passion Fruit",
+    "korean": "패션프루트",
+    "initial": "ㅍㅅㅍㄹㅌ",
+    "category": "fruit"
+  },
+  {
+    "english": "Peach",
+    "korean": "복숭아",
+    "initial": "ㅂㅅㅇ",
+    "category": "fruit"
+  },
+  {
+    "english": "Pear",
+    "korean": "배",
+    "initial": "ㅂ",
+    "category": "fruit"
+  },
+  {
+    "english": "Persimmon",
+    "korean": "감",
+    "initial": "ㄱ",
+    "category": "fruit"
+  },
+  {
+    "english": "Pineapple",
+    "korean": "파인애플",
+    "initial": "ㅍㅇㅇㅍ",
+    "category": "fruit"
+  },
+  {
+    "english": "Plum",
+    "korean": "자두",
+    "initial": "ㅈㄷ",
+    "category": "fruit"
+  },
+  {
+    "english": "Pomegranate",
+    "korean": "석류",
+    "initial": "ㅅㄹ",
+    "category": "fruit"
+  },
+  {
+    "english": "Pomelo",
+    "korean": "포멜로",
+    "initial": "ㅍㅁㄹ",
+    "category": "fruit"
+  },
+  {
+    "english": "Quince",
+    "korean": "모과",
+    "initial": "ㅁㄱ",
+    "category": "fruit"
+  },
+  {
+    "english": "Rambutan",
+    "korean": "람부탄",
+    "initial": "ㄹㅂㅌ",
+    "category": "fruit"
+  },
+  {
+    "english": "Raspberry",
+    "korean": "라즈베리",
+    "initial": "ㄹㅈㅂㄹ",
+    "category": "fruit"
+  },
+  {
+    "english": "Redcurrant",
+    "korean": "레드커런트",
+    "initial": "ㄹㄷㅋㄹㅌ",
+    "category": "fruit"
+  },
+  {
+    "english": "Salak",
+    "korean": "살락",
+    "initial": "ㅅㄹ",
+    "category": "fruit"
+  },
+  {
+    "english": "Sapodilla",
+    "korean": "사포딜라",
+    "initial": "ㅅㅍㄷㄹ",
+    "category": "fruit"
+  },
+  {
+    "english": "Soursop",
+    "korean": "사워솝",
+    "initial": "ㅅㅇㅅ",
+    "category": "fruit"
+  },
+  {
+    "english": "Star Apple",
+    "korean": "스타애플",
+    "initial": "ㅅㅌㅇㅍ",
+    "category": "fruit"
+  },
+  {
+    "english": "Strawberry",
+    "korean": "딸기",
+    "initial": "ㄸㄱ",
+    "category": "fruit"
+  },
+  {
+    "english": "Sugar Apple",
+    "korean": "슈가애플",
+    "initial": "ㅅㄱㅇㅍ",
+    "category": "fruit"
+  },
+  {
+    "english": "Tamarillo",
+    "korean": "타마릴로",
+    "initial": "ㅌㅁㄹㄹ",
+    "category": "fruit"
+  },
+  {
+    "english": "Tamarind",
+    "korean": "타마린드",
+    "initial": "ㅌㅁㄹㄷ",
+    "category": "fruit"
+  },
+  {
+    "english": "Tangerine",
+    "korean": "귤",
+    "initial": "ㄱ",
+    "category": "fruit"
+  },
+  {
+    "english": "Ugli Fruit",
+    "korean": "우글리프루트",
+    "initial": "ㅇㄱㄹㅍㄹㅌ",
+    "category": "fruit"
+  },
+  {
+    "english": "Watermelon",
+    "korean": "수박",
+    "initial": "ㅅㅂ",
+    "category": "fruit"
+  },
+  {
+    "english": "White Currant",
+    "korean": "화이트커런트",
+    "initial": "ㅎㅇㅌㅋㄹㅌ",
+    "category": "fruit"
+  },
+  {
+    "english": "Yuzu",
+    "korean": "유자",
+    "initial": "ㅇㅈ",
+    "category": "fruit"
+  },
+  {
+    "english": "Acerola",
+    "korean": "아세롤라",
+    "initial": "ㅇㅅㄹㄹ",
+    "category": "fruit"
+  },
+  {
+    "english": "Bilberry",
+    "korean": "빌베리",
+    "initial": "ㅂㅂㄹ",
+    "category": "fruit"
+  },
+  {
+    "english": "Cloudberry",
+    "korean": "클라우드베리",
+    "initial": "ㅋㄹㅇㄷㅂㄹ",
+    "category": "fruit"
+  },
+  {
+    "english": "Crabapple",
+    "korean": "야생사과",
+    "initial": "ㅇㅅㅅㄱ",
+    "category": "fruit"
+  },
+  {
+    "english": "Damson",
+    "korean": "댐슨",
+    "initial": "ㄷㅅ",
+    "category": "fruit"
+  },
+  {
+    "english": "Greengage",
+    "korean": "그린게이지",
+    "initial": "ㄱㄹㄱㅇㅈ",
+    "category": "fruit"
+  },
+  {
+    "english": "Huckleberry",
+    "korean": "허클베리",
+    "initial": "ㅎㅋㅂㄹ",
+    "category": "fruit"
+  },
+  {
+    "english": "Illawarra Plum",
+    "korean": "일라와라자두",
+    "initial": "ㅇㄹㅇㄹㅈㄷ",
+    "category": "fruit"
+  },
+  {
+    "english": "Jabuticaba",
+    "korean": "자부티카바",
+    "initial": "ㅈㅂㅌㅋㅂ",
+    "category": "fruit"
+  },
+  {
+    "english": "Kei Apple",
+    "korean": "케이애플",
+    "initial": "ㅋㅇㅇㅍ",
+    "category": "fruit"
+  },
+  {
+    "english": "Langsat",
+    "korean": "랑삿",
+    "initial": "ㄹㅅ",
+    "category": "fruit"
+  },
+  {
+    "english": "Medlar",
+    "korean": "메들라",
+    "initial": "ㅁㄷㄹ",
+    "category": "fruit"
+  },
+  {
+    "english": "Miracle Fruit",
+    "korean": "미라클프루트",
+    "initial": "ㅁㄹㅋㅍㄹㅌ",
+    "category": "fruit"
+  },
+  {
+    "english": "Monstera Deliciosa",
+    "korean": "몬스테라열매",
+    "initial": "ㅁㅅㅌㄹㅇㅁ",
+    "category": "fruit"
+  },
+  {
+    "english": "Naranjilla",
+    "korean": "나라힐라",
+    "initial": "ㄴㄹㅎㄹ",
+    "category": "fruit"
+  },
+  {
+    "english": "Physalis",
+    "korean": "골든베리",
+    "initial": "ㄱㄷㅂㄹ",
+    "category": "fruit"
+  },
+  {
+    "english": "Pitanga",
+    "korean": "피탕가",
+    "initial": "ㅍㅌㄱ",
+    "category": "fruit"
+  },
+  {
+    "english": "Rose Apple",
+    "korean": "로즈애플",
+    "initial": "ㄹㅈㅇㅍ",
+    "category": "fruit"
+  },
+  {
+    "english": "Rowan",
+    "korean": "마가목열매",
+    "initial": "ㅁㄱㅁㅇㅁ",
+    "category": "fruit"
+  },
+  {
+    "english": "Santol",
+    "korean": "산톨",
+    "initial": "ㅅㅌ",
+    "category": "fruit"
+  },
+  {
+    "english": "Serviceberry",
+    "korean": "서비스베리",
+    "initial": "ㅅㅂㅅㅂㄹ",
+    "category": "fruit"
+  },
+  {
+    "english": "Surinam Cherry",
+    "korean": "수리남체리",
+    "initial": "ㅅㄹㄴㅊㄹ",
+    "category": "fruit"
+  },
+  {
+    "english": "Velvet Apple",
+    "korean": "벨벳애플",
+    "initial": "ㅂㅂㅇㅍ",
+    "category": "fruit"
+  },
+  {
+    "english": "Wax Apple",
+    "korean": "왁스애플",
+    "initial": "ㅇㅅㅇㅍ",
+    "category": "fruit"
+  },
+  {
+    "english": "White Sapote",
+    "korean": "화이트사포테",
+    "initial": "ㅎㅇㅌㅅㅍㅌ",
+    "category": "fruit"
+  },
+  {
+    "english": "Youngberry",
+    "korean": "영베리",
+    "initial": "ㅇㅂㄹ",
+    "category": "fruit"
+  },
+  {
+    "english": "Ackee",
+    "korean": "아키",
+    "initial": "ㅇㅋ",
+    "category": "fruit"
+  },
+  {
+    "english": "Bael",
+    "korean": "벨",
+    "initial": "ㅂ",
+    "category": "fruit"
+  },
+  {
+    "english": "Canistel",
+    "korean": "카니스텔",
+    "initial": "ㅋㄴㅅㅌ",
+    "category": "fruit"
+  },
+  {
+    "english": "Cupuacu",
+    "korean": "쿠푸아수",
+    "initial": "ㅋㅍㅇㅅ",
+    "category": "fruit"
+  },
+  {
+    "english": "Genip",
+    "korean": "제니프",
+    "initial": "ㅈㄴㅍ",
+    "category": "fruit"
+  },
+  {
+    "english": "Hog Plum",
+    "korean": "호그플럼",
+    "initial": "ㅎㄱㅍㄹ",
+    "category": "fruit"
+  },
+  {
+    "english": "Ice Apple",
+    "korean": "아이스애플",
+    "initial": "ㅇㅇㅅㅇㅍ",
+    "category": "fruit"
+  },
+  {
+    "english": "Indian Fig",
+    "korean": "인디언무화과",
+    "initial": "ㅇㄷㅇㅁㅎㄱ",
+    "category": "fruit"
+  },
+  {
+    "english": "Juneberry",
+    "korean": "준베리",
+    "initial": "ㅈㅂㄹ",
+    "category": "fruit"
+  },
+  {
+    "english": "Lucuma",
+    "korean": "루쿠마",
+    "initial": "ㄹㅋㅁ",
+    "category": "fruit"
+  },
+  {
+    "english": "Mammee Apple",
+    "korean": "마미애플",
+    "initial": "ㅁㅁㅇㅍ",
+    "category": "fruit"
+  },
+  {
+    "english": "Marionberry",
+    "korean": "마리온베리",
+    "initial": "ㅁㄹㅇㅂㄹ",
+    "category": "fruit"
+  },
+  {
+    "english": "Mayapple",
+    "korean": "메이애플",
+    "initial": "ㅁㅇㅇㅍ",
+    "category": "fruit"
+  },
+  {
+    "english": "Mountain Pepper Berry",
+    "korean": "마운틴페퍼베리",
+    "initial": "ㅁㅇㅌㅍㅍㅂㄹ",
+    "category": "fruit"
+  },
+  {
+    "english": "Pepino",
+    "korean": "페피노",
+    "initial": "ㅍㅍㄴ",
+    "category": "fruit"
+  },
+  {
+    "english": "Prickly Pear",
+    "korean": "백년초열매",
+    "initial": "ㅂㄴㅊㅇㅁ",
+    "category": "fruit"
+  },
+  {
+    "english": "Pulasan",
+    "korean": "풀라산",
+    "initial": "ㅍㄹㅅ",
+    "category": "fruit"
+  },
+  {
+    "english": "Sea Buckthorn",
+    "korean": "산자나무열매",
+    "initial": "ㅅㅈㄴㅁㅇㅁ",
+    "category": "fruit"
+  },
+  {
+    "english": "Soncoya",
+    "korean": "손코야",
+    "initial": "ㅅㅋㅇ",
+    "category": "fruit"
+  },
+  {
+    "english": "Tayberry",
+    "korean": "테이베리",
+    "initial": "ㅌㅇㅂㄹ",
+    "category": "fruit"
+  },
+  {
+    "english": "White Mulberry",
+    "korean": "흰오디",
+    "initial": "ㅎㅇㄷ",
+    "category": "fruit"
+  },
+  {
+    "english": "Yellow Passion Fruit",
+    "korean": "노란패션프루트",
+    "initial": "ㄴㄹㅍㅅㅍㄹㅌ",
+    "category": "fruit"
+  },
+  {
+    "english": "Black Sapote",
+    "korean": "블랙사포테",
+    "initial": "ㅂㄹㅅㅍㅌ",
+    "category": "fruit"
+  },
+  {
+    "english": "Cupuassu",
+    "korean": "쿠푸아수",
+    "initial": "ㅋㅍㅇㅅ",
+    "category": "fruit"
+  },
+  {
+    "english": "Gac",
+    "korean": "각",
+    "initial": "ㄱ",
+    "category": "fruit"
+  },
+  {
+    "english": "Malay Apple",
+    "korean": "말레이애플",
+    "initial": "ㅁㄹㅇㅇㅍ",
+    "category": "fruit"
+  },
+  {
+    "english": "Mountain Soursop",
+    "korean": "마운틴사워솝",
+    "initial": "ㅁㅇㅌㅅㅇㅅ",
+    "category": "fruit"
+  },
+  {
+    "english": "Noni",
+    "korean": "노니",
+    "initial": "ㄴㄴ",
+    "category": "fruit"
+  },
+  {
+    "english": "Pequi",
+    "korean": "페키",
+    "initial": "ㅍㅋ",
+    "category": "fruit"
+  },
+  {
+    "english": "Safou",
+    "korean": "사포우",
+    "initial": "ㅅㅍㅇ",
+    "category": "fruit"
+  },
+  {
+    "english": "Tangelo",
+    "korean": "탱젤로",
+    "initial": "ㅌㅈㄹ",
+    "category": "fruit"
+  },
+  {
+    "english": "Voavanga",
+    "korean": "보아방가",
+    "initial": "ㅂㅇㅂㄱ",
+    "category": "fruit"
+  },
+  {
+    "english": "Wood Apple",
+    "korean": "우드애플",
+    "initial": "ㅇㄷㅇㅍ",
+    "category": "fruit"
+  },
+  {
+    "english": "Ambarella",
+    "korean": "암바렐라",
+    "initial": "ㅇㅂㄹㄹ",
+    "category": "fruit"
+  },
+  {
+    "english": "Bignay",
+    "korean": "빅나이",
+    "initial": "ㅂㄴㅇ",
+    "category": "fruit"
+  },
+  {
+    "english": "Ceylon Gooseberry",
+    "korean": "실론구스베리",
+    "initial": "ㅅㄹㄱㅅㅂㄹ",
+    "category": "fruit"
+  },
+  {
+    "english": "Desert Lime",
+    "korean": "사막라임",
+    "initial": "ㅅㅁㄹㅇ",
+    "category": "fruit"
+  },
+  {
+    "english": "Emu Apple",
+    "korean": "에뮤애플",
+    "initial": "ㅇㅁㅇㅍ",
+    "category": "fruit"
+  },
+  {
+    "english": "Finger Lime",
+    "korean": "핑거라임",
+    "initial": "ㅍㄱㄹㅇ",
+    "category": "fruit"
+  },
+  {
+    "english": "Governor's Plum",
+    "korean": "거버너플럼",
+    "initial": "ㄱㅂㄴㅍㄹ",
+    "category": "fruit"
+  },
+  {
+    "english": "Imbe",
+    "korean": "임베",
+    "initial": "ㅇㅂ",
+    "category": "fruit"
+  },
+  {
+    "english": "Jocote",
+    "korean": "호코테",
+    "initial": "ㅎㅋㅌ",
+    "category": "fruit"
+  },
+  {
+    "english": "Korlan",
+    "korean": "코를란",
+    "initial": "ㅋㄹㄹ",
+    "category": "fruit"
+  },
+  {
+    "english": "Lilly Pilly",
+    "korean": "릴리필리",
+    "initial": "ㄹㄹㅍㄹ",
+    "category": "fruit"
+  }
+]
