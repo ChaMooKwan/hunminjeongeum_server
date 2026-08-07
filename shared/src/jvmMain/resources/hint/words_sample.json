@@ -1,0 +1,290 @@
+[
+  {
+    "id": 1,
+    "word": "감",
+    "quizCategory": 1,
+    "wordQuiz": "ㄱ"
+  },
+  {
+    "id": 2,
+    "word": "배",
+    "quizCategory": 1,
+    "wordQuiz": "ㅂ"
+  },
+  {
+    "id": 3,
+    "word": "귤",
+    "quizCategory": 1,
+    "wordQuiz": "ㄱ"
+  },
+  {
+    "id": 4,
+    "word": "밤",
+    "quizCategory": 1,
+    "wordQuiz": "ㅂ"
+  },
+  {
+    "id": 5,
+    "word": "포도",
+    "quizCategory": 1,
+    "wordQuiz": "ㅍㄷ"
+  },
+  {
+    "id": 6,
+    "word": "자두",
+    "quizCategory": 1,
+    "wordQuiz": "ㅈㄷ"
+  },
+  {
+    "id": 7,
+    "word": "수박",
+    "quizCategory": 1,
+    "wordQuiz": "ㅅㅂ"
+  },
+  {
+    "id": 8,
+    "word": "딸기",
+    "quizCategory": 1,
+    "wordQuiz": "ㄸㄱ"
+  },
+  {
+    "id": 9,
+    "word": "키위",
+    "quizCategory": 1,
+    "wordQuiz": "ㅋㅇ"
+  },
+  {
+    "id": 10,
+    "word": "바나나",
+    "quizCategory": 1,
+    "wordQuiz": "ㅂㄴㄴ"
+  },
+  {
+    "id": 11,
+    "word": "파인애플",
+    "quizCategory": 1,
+    "wordQuiz": "ㅍㅇㅇㅍ"
+  },
+  {
+    "id": 12,
+    "word": "블루베리",
+    "quizCategory": 1,
+    "wordQuiz": "ㅂㄹㅂㄹ"
+  },
+  {
+    "id": 13,
+    "word": "미국",
+    "quizCategory": 2,
+    "wordQuiz": "ㅁㄱ"
+  },
+  {
+    "id": 14,
+    "word": "일본",
+    "quizCategory": 2,
+    "wordQuiz": "ㅇㅂ"
+  },
+  {
+    "id": 15,
+    "word": "중국",
+    "quizCategory": 2,
+    "wordQuiz": "ㅈㄱ"
+  },
+  {
+    "id": 16,
+    "word": "프랑스",
+    "quizCategory": 2,
+    "wordQuiz": "ㅍㄹㅅ"
+  },
+  {
+    "id": 17,
+    "word": "이탈리아",
+    "quizCategory": 2,
+    "wordQuiz": "ㅇㅌㄹㅇ"
+  },
+  {
+    "id": 18,
+    "word": "대한민국",
+    "quizCategory": 2,
+    "wordQuiz": "ㄷㅎㅁㄱ"
+  },
+  {
+    "id": 19,
+    "word": "네덜란드",
+    "quizCategory": 2,
+    "wordQuiz": "ㄴㄷㄹㄷ"
+  },
+  {
+    "id": 20,
+    "word": "오스트리아",
+    "quizCategory": 2,
+    "wordQuiz": "ㅇㅅㅌㄹㅇ"
+  },
+  {
+    "id": 21,
+    "word": "아르헨티나",
+    "quizCategory": 2,
+    "wordQuiz": "ㅇㄹㅎㅌㄴ"
+  },
+  {
+    "id": 22,
+    "word": "떡",
+    "quizCategory": 3,
+    "wordQuiz": "ㄸ"
+  },
+  {
+    "id": 23,
+    "word": "죽",
+    "quizCategory": 3,
+    "wordQuiz": "ㅈ"
+  },
+  {
+    "id": 24,
+    "word": "국수",
+    "quizCategory": 3,
+    "wordQuiz": "ㄱㅅ"
+  },
+  {
+    "id": 25,
+    "word": "김밥",
+    "quizCategory": 3,
+    "wordQuiz": "ㄱㅂ"
+  },
+  {
+    "id": 26,
+    "word": "비빔밥",
+    "quizCategory": 3,
+    "wordQuiz": "ㅂㅂㅂ"
+  },
+  {
+    "id": 27,
+    "word": "삼겹살",
+    "quizCategory": 3,
+    "wordQuiz": "ㅅㄱㅅ"
+  },
+  {
+    "id": 28,
+    "word": "김치찌개",
+    "quizCategory": 3,
+    "wordQuiz": "ㄱㅊㅉㄱ"
+  },
+  {
+    "id": 29,
+    "word": "된장찌개",
+    "quizCategory": 3,
+    "wordQuiz": "ㄷㅈㅉㄱ"
+  },
+  {
+    "id": 30,
+    "word": "순두부찌개",
+    "quizCategory": 3,
+    "wordQuiz": "ㅅㄷㅂㅉㄱ"
+  },
+  {
+    "id": 31,
+    "word": "말",
+    "quizCategory": 4,
+    "wordQuiz": "ㅁ"
+  },
+  {
+    "id": 32,
+    "word": "곰",
+    "quizCategory": 4,
+    "wordQuiz": "ㄱ"
+  },
+  {
+    "id": 33,
+    "word": "닭",
+    "quizCategory": 4,
+    "wordQuiz": "ㄷ"
+  },
+  {
+    "id": 34,
+    "word": "토끼",
+    "quizCategory": 4,
+    "wordQuiz": "ㅌㄲ"
+  },
+  {
+    "id": 35,
+    "word": "사자",
+    "quizCategory": 4,
+    "wordQuiz": "ㅅㅈ"
+  },
+  {
+    "id": 36,
+    "word": "기린",
+    "quizCategory": 4,
+    "wordQuiz": "ㄱㄹ"
+  },
+  {
+    "id": 37,
+    "word": "다람쥐",
+    "quizCategory": 4,
+    "wordQuiz": "ㄷㄹㅈ"
+  },
+  {
+    "id": 38,
+    "word": "코끼리",
+    "quizCategory": 4,
+    "wordQuiz": "ㅋㄲㄹ"
+  },
+  {
+    "id": 39,
+    "word": "고슴도치",
+    "quizCategory": 4,
+    "wordQuiz": "ㄱㅅㄷㅊ"
+  },
+  {
+    "id": 40,
+    "word": "카멜레온",
+    "quizCategory": 4,
+    "wordQuiz": "ㅋㅁㄹㅇ"
+  },
+  {
+    "id": 41,
+    "word": "유비무환",
+    "quizCategory": 5,
+    "wordQuiz": "ㅇㅂㅁㅎ"
+  },
+  {
+    "id": 42,
+    "word": "일석이조",
+    "quizCategory": 5,
+    "wordQuiz": "ㅇㅅㅇㅈ"
+  },
+  {
+    "id": 43,
+    "word": "견물생심",
+    "quizCategory": 5,
+    "wordQuiz": "ㄱㅁㅅㅅ"
+  },
+  {
+    "id": 44,
+    "word": "오리무중",
+    "quizCategory": 5,
+    "wordQuiz": "ㅇㄹㅁㅈ"
+  },
+  {
+    "id": 45,
+    "word": "고진감래",
+    "quizCategory": 5,
+    "wordQuiz": "ㄱㅈㄱㄹ"
+  },
+  {
+    "id": 46,
+    "word": "새옹지마",
+    "quizCategory": 5,
+    "wordQuiz": "ㅅㅇㅈㅁ"
+  },
+  {
+    "id": 47,
+    "word": "자업자득",
+    "quizCategory": 5,
+    "wordQuiz": "ㅈㅇㅈㄷ"
+  },
+  {
+    "id": 48,
+    "word": "형설지공",
+    "quizCategory": 5,
+    "wordQuiz": "ㅎㅅㅈㄱ"
+  }
+]
