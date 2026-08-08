@@ -6,6 +6,7 @@ import kotlinx.coroutines.runBlocking
 import kr.ac.sunmoon.hunminjeongeum_server.data.supabase.QuizWordInsertDto
 import kr.ac.sunmoon.hunminjeongeum_server.data.supabase.QuizWordRepository
 
+// 국가 데이터를 받아와서 DB에 저장하는 기능
 fun main() = runBlocking {
     val countriesApi = CountriesApiClient(
         apiKey = "rc_live_62f9005831e44c2b9faf8fd375a778cd"
