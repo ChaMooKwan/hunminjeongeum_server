@@ -215,7 +215,7 @@ private suspend fun runAudit(
     val logs = mutableListOf<GenerationLog>()
 
     for ((index, entry) in repository.accepted.withIndex()) {
-        print("[${index + 1}/${repository.accepted.size}] ${entry.word} (${entry.categoryLabel}) ... ")
+        print("[${index + 1}/${repository.accepted.size}] ${entry.word} (${entry.quizCategoryName}) ... ")
 
         val slots = RoundPlan.featureHintCount(entry.syllableCount)
         val startedAt = System.currentTimeMillis()
@@ -262,7 +262,7 @@ private suspend fun runAudit(
         logs += GenerationLog(
             id = entry.id,
             word = entry.word,
-            category = entry.categoryLabel,
+            category = entry.quizCategoryName,
             syllableCount = entry.syllableCount,
             ok = ok,
             reason = reason,
@@ -401,7 +401,7 @@ private fun printHeader(
     if (mismatches.isNotEmpty()) {
         println("  ! DB 초성이 계산값과 다른 단어 ${mismatches.size}개:")
         for (word in mismatches) {
-            println("    ${word.word} — DB '${word.wordQuiz}' vs 계산 '${word.quizChosung}'")
+            println("    ${word.word} — DB '${word.wordQuiz}' vs 계산 '${Hangul.toChosung(word.word)}'")
         }
     }
 
@@ -426,7 +426,7 @@ private fun printHeader(
     if (collisions.isNotEmpty()) {
         println("  ! 초성이 겹치는 단어 묶음 ${collisions.size}개 (정답 판정 담당자에게 공유 필요):")
         for (group in collisions) {
-            println("    ${group.first().categoryLabel} / ${group.first().quizChosung} — ${group.joinToString(", ") { it.word }}")
+            println("    ${group.first().quizCategoryName} / ${group.first().wordQuiz} — ${group.joinToString(", ") { it.word }}")
         }
     }
     println("─".repeat(64))

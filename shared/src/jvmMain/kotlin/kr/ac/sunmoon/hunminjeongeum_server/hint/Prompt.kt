@@ -30,7 +30,7 @@ package kr.ac.sunmoon.hunminjeongeum_server.hint
  *     - 프롬프트는 한 글자도 안 고쳤음. 이번 변경은 검증기(길이 기준)와 DB 스키마
  *       쪽이라 실패율에 영향을 주는 문장은 건드리지 않았음. 따라서 v4 대비 audit
  *       비교가 그대로 유효함. (버전만 올려 audit 로그에 v5 로 찍히게 함)
- *     - 카테고리 이름을 얻는 방식만 entry.category → entry.categoryLabel 로 교체.
+ *     - 카테고리 이름을 얻는 방식만 entry.category → entry.quizCategoryName 로 교체.
  *       DB 가 카테고리를 숫자 ID 로 주게 되면서 이름은 파생 값이 되었기 때문.
  * ─────────────────────────────────────────────────────────────
  */
@@ -153,13 +153,13 @@ object Prompt {
         val banned = Hangul.leakFragments(entry.word).joinToString(", ") { "\"" + it + "\"" }
 
         return buildString {
-            appendLine("카테고리: " + entry.categoryLabel)
+            appendLine("카테고리: " + entry.quizCategoryName)
             appendLine("정답 단어: " + entry.word)
             if (entry.definition.isNotBlank()) {
                 appendLine("사전 뜻풀이: " + entry.definition.replace("\n", " ").trim())
             }
             appendLine()
-            appendLine("카테고리별 지침: " + guideFor(entry.categoryLabel))
+            appendLine("카테고리별 지침: " + guideFor(entry.quizCategoryName))
             appendLine()
             appendLine("금지 문자열(이 중 어떤 것도 힌트에 등장하면 안 됩니다): $banned")
 

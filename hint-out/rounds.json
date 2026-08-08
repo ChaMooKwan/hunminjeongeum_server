@@ -4,11 +4,11 @@
         "word": "다람쥐",
         "wordQuiz": "ㄷㄹㅈ",
         "quizCategory": 4,
-        "quiz_category_label": "동물",
-        "easyHint": "도토리 좋아하는 작은 동물입니다.",
-        "normalHint": "꼬리가 통통하고 부드러워요.",
+        "quiz_category_name": "동물",
+        "easyHint": "나무 위에서 깡충깡충 뛰어요.",
+        "normalHint": "갈색과 회색으로 자주 보입니다.",
         "hardHint": "",
-        "easyWordHint": "ㄷ람ㅈ",
+        "easyWordHint": "다ㄹㅈ",
         "normalWordHint": "",
         "cues": [
             {
@@ -29,19 +29,43 @@
         "hint_source": "AI",
         "slot_promoted": false,
         "generated_by": "gpt-4.1-nano/v5",
-        "latency_ms": 3540
+        "latency_ms": 3009
     },
     {
-        "word_id": 40,
-        "word": "카멜레온",
-        "wordQuiz": "ㅋㅁㄹㅇ",
+        "word_id": 31,
+        "word": "말",
+        "wordQuiz": "ㅁ",
         "quizCategory": 4,
-        "quiz_category_label": "동물",
-        "easyHint": "변하는 색이 마술 같죠?",
-        "normalHint": "초록과 갈색을 자유자재로 넘나듭니다.",
-        "hardHint": "특징적인 피부 구조로 색을 바꿉니다.",
-        "easyWordHint": "카ㅁㄹㅇ",
-        "normalWordHint": "카ㅁ레ㅇ",
+        "quiz_category_name": "동물",
+        "easyHint": "짧은 다리와 긴 목이 특징입니다.",
+        "normalHint": "",
+        "hardHint": "",
+        "easyWordHint": "",
+        "normalWordHint": "",
+        "cues": [
+            {
+                "kind": "EASY",
+                "remainingSec": 25
+            }
+        ],
+        "degraded": false,
+        "note": "슬롯 1/1 채움 · 승격(특징힌트(하))",
+        "hint_source": "AI",
+        "slot_promoted": true,
+        "generated_by": "gpt-4.1-nano/v5",
+        "latency_ms": 3225
+    },
+    {
+        "word_id": 34,
+        "word": "토끼",
+        "wordQuiz": "ㅌㄲ",
+        "quizCategory": 4,
+        "quiz_category_name": "동물",
+        "easyHint": "귀가 쫑긋, 숨어서 콩콩 뛰어요.",
+        "normalHint": "",
+        "hardHint": "",
+        "easyWordHint": "ㅌ끼",
+        "normalWordHint": "",
         "cues": [
             {
                 "kind": "EASY",
@@ -49,19 +73,7 @@
             },
             {
                 "kind": "WORD_1",
-                "remainingSec": 20
-            },
-            {
-                "kind": "NORMAL",
                 "remainingSec": 15
-            },
-            {
-                "kind": "WORD_2",
-                "remainingSec": 10
-            },
-            {
-                "kind": "HARD",
-                "remainingSec": 5
             }
         ],
         "degraded": false,
@@ -69,16 +81,44 @@
         "hint_source": "AI",
         "slot_promoted": false,
         "generated_by": "gpt-4.1-nano/v5",
-        "latency_ms": 2463
+        "latency_ms": 1569
+    },
+    {
+        "word_id": 35,
+        "word": "사자",
+        "wordQuiz": "ㅅㅈ",
+        "quizCategory": 4,
+        "quiz_category_name": "동물",
+        "easyHint": "대여섯 발 달린 맹수입니다.",
+        "normalHint": "",
+        "hardHint": "",
+        "easyWordHint": "ㅅ자",
+        "normalWordHint": "",
+        "cues": [
+            {
+                "kind": "EASY",
+                "remainingSec": 25
+            },
+            {
+                "kind": "WORD_1",
+                "remainingSec": 15
+            }
+        ],
+        "degraded": false,
+        "note": "",
+        "hint_source": "AI",
+        "slot_promoted": false,
+        "generated_by": "gpt-4.1-nano/v5",
+        "latency_ms": 1549
     },
     {
         "word_id": 33,
         "word": "닭",
         "wordQuiz": "ㄷ",
         "quizCategory": 4,
-        "quiz_category_label": "동물",
+        "quiz_category_name": "동물",
         "easyHint": "",
-        "normalHint": "꼬리깃이 길게 자랍니다.",
+        "normalHint": "대개 흰색 깃털이 주를 이룹니다.",
         "hardHint": "",
         "easyWordHint": "",
         "normalWordHint": "",
@@ -93,58 +133,6 @@
         "hint_source": "AI",
         "slot_promoted": false,
         "generated_by": "gpt-4.1-nano/v5",
-        "latency_ms": 1110
-    },
-    {
-        "word_id": 32,
-        "word": "곰",
-        "wordQuiz": "ㄱ",
-        "quizCategory": 4,
-        "quiz_category_label": "동물",
-        "easyHint": "",
-        "normalHint": "회색과 갈색이 섞여 있어요.",
-        "hardHint": "",
-        "easyWordHint": "",
-        "normalWordHint": "",
-        "cues": [
-            {
-                "kind": "NORMAL",
-                "remainingSec": 25
-            }
-        ],
-        "degraded": false,
-        "note": "",
-        "hint_source": "AI",
-        "slot_promoted": false,
-        "generated_by": "gpt-4.1-nano/v5",
-        "latency_ms": 2383
-    },
-    {
-        "word_id": 39,
-        "word": "고슴도치",
-        "wordQuiz": "ㄱㅅㄷㅊ",
-        "quizCategory": 4,
-        "quiz_category_label": "동물",
-        "easyHint": "",
-        "normalHint": "",
-        "hardHint": "",
-        "easyWordHint": "ㄱㅅㄷ치",
-        "normalWordHint": "고ㅅㄷ치",
-        "cues": [
-            {
-                "kind": "WORD_1",
-                "remainingSec": 20
-            },
-            {
-                "kind": "WORD_2",
-                "remainingSec": 10
-            }
-        ],
-        "degraded": true,
-        "note": "시간 초과(6000ms) - 특징힌트 전멸 (후보 1개 전부 탈락)",
-        "hint_source": "NONE",
-        "slot_promoted": false,
-        "generated_by": "gpt-4.1-nano/v5",
-        "latency_ms": 6020
+        "latency_ms": 1160
     }
 ]

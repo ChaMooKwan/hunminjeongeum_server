@@ -131,7 +131,7 @@ class InMemoryWordRepository(source: List<WordEntry>) : WordRepository {
      * 정답 판정은 우리 소관이 아니므로, 목록을 뽑아 단어 DB 담당에게 넘기는 것까지가 우리 몫입니다.
      */
     fun chosungCollisions(): List<List<WordEntry>> =
-        accepted.groupBy { it.quizCategory to it.quizChosung }
+        accepted.groupBy { it.quizCategory to it.wordQuiz }
             .values
             .filter { it.size > 1 }
             .sortedBy { it.first().quizCategory }

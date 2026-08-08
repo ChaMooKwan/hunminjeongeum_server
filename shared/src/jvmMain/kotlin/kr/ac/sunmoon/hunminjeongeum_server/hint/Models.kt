@@ -82,10 +82,9 @@ enum class QuizCategory(val index: Int, val label: String) {
  *   word: String         word                 word: String
  *   word_initial         wordQuiz             wordQuiz: String
  *
- * ── wordQuiz(DB 초성)와 quizChosung(코드 초성)은 다르다 ──
- * DB에도 초성 컬럼(wordQuiz)이 있지만, **실제 출제에는 항상 코드가 계산한
- * [quizChosung] 을 씁니다.** DB 초성이 틀려 있어도 게임이 정상 동작해야 하기 때문입니다.
- * DB 초성은 [wordQuizMatchesCode] 로 데이터 품질을 점검할 때만 참고합니다.
+ * ── wordQuiz ──
+ * 초성 문자열입니다. 코드가 계산한 값을 우선 사용하며,
+ * DB 값과 일치 여부는 [wordQuizMatchesCode] 로 점검할 수 있습니다.
  *
  * 사전 뜻풀이(definition)는 **선택** 입니다. DB에 아직 컬럼이 없어 기본값이 비어 있고,
  * 나중에 컬럼이 생기면 값만 채우면 프롬프트가 자동으로 활용합니다.
@@ -98,14 +97,13 @@ data class WordEntry(
     val word: String,
     /** 카테고리 숫자 ID. 과일=1 / 나라=2 / 음식=3 / 동물=4 / 사자성어=5 */
     val quizCategory: Int,
-    /** DB가 함께 내려주는 초성. 비어 있어도 됩니다. 실제 출제에는 [quizChosung] 을 씁니다. */
+    /** 초성 문자열. 예: "ㄷㅎㅁㄱ". 출제와 초성힌트 계산에 쓰입니다. */
     val wordQuiz: String = "",
     /** 사전 뜻풀이. 있으면 힌트 품질이 올라가지만 없어도 동작합니다. */
     val definition: String = ""
 ) {
     /** 카테고리 표준 이름. 프롬프트·로그·화면에서 씁니다. 모르는 ID면 "미지정#<id>". */
-    val categoryLabel: String get() = QuizCategory.labelOfIndex(quizCategory)
-
+    val quizCategoryName: String get() = QuizCategory.labelOfIndex(quizCategory)
     val syllableCount: Int get() = word.length
 
     /** 초성힌트를 줄 수 없는 단어인지. 1음절은 음절을 열면 곧 정답이라 불가능합니다. */
@@ -118,7 +116,7 @@ data class WordEntry(
     val quizChosung: String get() = Hangul.toChosung(word)
 
     /** DB 초성(wordQuiz)이 코드 계산과 일치하는지. 데이터 품질 점검용입니다. */
-    val wordQuizMatchesCode: Boolean get() = wordQuiz.isBlank() || wordQuiz == quizChosung
+    val wordQuizMatchesCode: Boolean get() = wordQuiz.isBlank() || wordQuiz == Hangul.toChosung(word)
 }
 
 // ─────────────────────────────────────────────────────────────
@@ -226,11 +224,11 @@ data class RoundHints(
     val wordQuiz: String,
     /**
      * 문제 유형의 숫자 ID. DB 계약(category_id)과 같습니다. 과일=1 / 나라=2 / 음식=3 / 동물=4 / 사자성어=5
-     * 화면에 사람이 읽을 이름이 필요하면 [quizCategoryLabel] 을 쓰세요.
+     * 화면에 사람이 읽을 이름이 필요하면 [quizCategoryName] 을 쓰세요.
      */
     val quizCategory: Int,
     /** 문제 유형의 표준 이름. 예: "나라". 화면 표시용 파생 값입니다. */
-    @SerialName("quiz_category_label") val quizCategoryLabel: String = "",
+    @SerialName("quiz_category_name") val quizCategoryName: String = "",
 
     /** 특징힌트(하). 사용하지 않는 라운드에서는 빈 문자열입니다. */
     val easyHint: String = "",

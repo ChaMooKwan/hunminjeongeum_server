@@ -210,9 +210,9 @@ class HintService(
         val round = RoundHints(
             wordId = entry.id,
             word = entry.word,
-            wordQuiz = entry.quizChosung,
+            wordQuiz = entry.wordQuiz,
             quizCategory = entry.quizCategory,
-            quizCategoryLabel = entry.categoryLabel,
+            quizCategoryName = entry.quizCategoryName,
             // 이 라운드에서 쓰지 않는 힌트는 아예 빈 문자열로 지웁니다.
             // 검증하지 않은 문장이 실수로 화면에 나가는 사고를 원천 차단합니다.
             easyHint = texts[HintKind.EASY].orEmpty(),

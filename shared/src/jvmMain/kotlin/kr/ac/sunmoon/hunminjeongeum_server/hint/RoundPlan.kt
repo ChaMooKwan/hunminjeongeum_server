@@ -44,8 +44,8 @@ object HintLength {
  *   EASY   -> easyHint      (특징힌트 하)
  *   NORMAL -> normalHint    (특징힌트 중)
  *   HARD   -> hardHint      (특징힌트 상)
- *   WORD_1 -> wordHint_1    (초성힌트 1)
- *   WORD_2 -> wordHint_2    (초성힌트 2)
+ *   WORD_1 -> easyWordHint    (초성힌트 1)
+ *   WORD_2 -> normalWordHint  (초성힌트 2)
  */
 enum class HintKind(val label: String) {
     EASY("특징힌트(하)"),
