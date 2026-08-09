@@ -63,6 +63,7 @@ class ServerConnection(
             val name = reader.readLine()
             client = ClientConnection(name, socket, writer)
             room.add(client)
+            game.userInfos.add(UserInfo(name,0))// 중복이지만 추가
 
             println("$name entered!")
             broadcast(encodedName())
@@ -70,36 +71,34 @@ class ServerConnection(
             thread(isDaemon = true) {
                 while (running) {
                     val message = reader.readLine()
-                    if (message == "/startGame,"){
+                    if (message.contains("/startGame,")){
                         startGame()
                     }
-                    else if (message == "/hint,"){
+                    else if (message.contains("/hint,")){
                         // LLM API 사용해서 힌트 전송 "/hintAnswer,'
                     }
-                    else if (message == "/chat,"){
+                    else if (message.contains("/chat,")){
+                        println(message)
                         val chatMessage = encodedMessage(message)
                         if (game.isStarted &&
                             chatMessage.message == game.questions[game.getQ()].word){
-                            val i = room.getClients().indexOfFirst{
+                            val i = game.userInfos.indexOfFirst{
                                 chatMessage.userName == it.userName
                             }
-                            game.scores[i] = game.scores[i] + 10
-                            broadcastScores(game.scores)
+                            game.userInfos[i].score += 10
+                            broadcastScores(game.userInfos)
                             //문제 맞추는 이펙트 호출..? 은 클라이언트 쪽에서 알아서...
                             game.nextQ()
                             giveQuestion()
+                            print(message)
                         }
+                        broadcastChat(chatMessage)
                     }
                 }
             }
 
         } catch (e: Exception) {
             println("client error: ${e.message}")
-        } finally {
-            if (client != null){
-                room.remove(client)
-                println("Something went wrong during adding client!")
-            }
         }
     }
 
@@ -109,9 +108,6 @@ class ServerConnection(
             println("question added in the server!")
         }
         game.isStarted = true
-        repeat(room.getSize()) { // 방인원 만큼 점수 리스트 초기화
-            game.scores.add(0)
-        }
         broadcast("/playGame,") // 다음 화면으로 넘어가라고 신호를 주는 것
         giveQuestion()
         startTimer()
@@ -147,15 +143,19 @@ class ServerConnection(
             }
         }
     }
-    private fun broadcastScores(scores: List<Int>) {
+    private fun broadcastScores(userInfos: List<UserInfo>) {
         val scoresMessage = StringBuilder("/score,")
-        scores.forEach { score ->
-            scoresMessage.append("$score,")
+        userInfos.forEach { userInfo ->
+            scoresMessage.append("${userInfo.userName}${userInfo.score},")
         }
         val scoreMessage = scoresMessage.dropLast(1).toString()
         broadcast(scoreMessage)
     }
 
+    private fun broadcastChat(chatMessage: ChatMessage){
+        val stringMessage = "/chat,${chatMessage.userName}&${chatMessage.message}"
+        broadcast(stringMessage)
+    }
     private fun encodedName(): String{
         val clients = room.getClients()
         var encodedNames: String = "/userNames,"
@@ -168,7 +168,8 @@ class ServerConnection(
 
     private fun encodedMessage(message: String): ChatMessage{
         val list: List<String> = message.split(',')
-        val chatMessage = ChatMessage(list[1],list[2])
+        val stringChatMessage = list[1].split("&")
+        val chatMessage = ChatMessage(stringChatMessage[0],stringChatMessage[1])
         return chatMessage
     }
 

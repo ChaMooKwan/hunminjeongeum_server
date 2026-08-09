@@ -3,11 +3,15 @@ package kr.ac.sunmoon.hunminjeongeum_server.logic
 import kr.ac.sunmoon.hunminjeongeum_server.data.supabase.QuizWordDto
 import kr.ac.sunmoon.hunminjeongeum_server.data.supabase.QuizWordRepository
 
+class UserInfo(
+    val userName: String,
+    var score: Int
+)
 class Game {
     var questions: MutableList<QuizWordDto> = mutableListOf()
     private var index = 0
     var isStarted = false
-    var scores = mutableListOf<Int>()
+    var userInfos = mutableListOf<UserInfo>()
 
     suspend fun getRandomQuiz(category: Int, times: Int): List<QuizWordDto> {
         val repository = QuizWordRepository()
