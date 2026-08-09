@@ -1,0 +1,752 @@
+[
+  {
+    "korean": "고슴도치",
+    "initial": "ㄱㅅㄷㅊ",
+    "category": "동물"
+  },
+  {
+    "korean": "스라소니",
+    "initial": "ㅅㄹㅅㄴ",
+    "category": "동물"
+  },
+  {
+    "korean": "삵",
+    "initial": "ㅅ",
+    "category": "동물"
+  },
+  {
+    "korean": "너구리",
+    "initial": "ㄴㄱㄹ",
+    "category": "동물"
+  },
+  {
+    "korean": "불곰",
+    "initial": "ㅂㄱ",
+    "category": "동물"
+  },
+  {
+    "korean": "물개",
+    "initial": "ㅁㄱ",
+    "category": "동물"
+  },
+  {
+    "korean": "바다사자",
+    "initial": "ㅂㄷㅅㅈ",
+    "category": "동물"
+  },
+  {
+    "korean": "물범",
+    "initial": "ㅁㅂ",
+    "category": "동물"
+  },
+  {
+    "korean": "수달",
+    "initial": "ㅅㄷ",
+    "category": "동물"
+  },
+  {
+    "korean": "담비",
+    "initial": "ㄷㅂ",
+    "category": "동물"
+  },
+  {
+    "korean": "오소리",
+    "initial": "ㅇㅅㄹ",
+    "category": "동물"
+  },
+  {
+    "korean": "족제비",
+    "initial": "ㅈㅈㅂ",
+    "category": "동물"
+  },
+  {
+    "korean": "멧돼지",
+    "initial": "ㅁㄷㅈ",
+    "category": "동물"
+  },
+  {
+    "korean": "노루",
+    "initial": "ㄴㄹ",
+    "category": "동물"
+  },
+  {
+    "korean": "고라니",
+    "initial": "ㄱㄹㄴ",
+    "category": "동물"
+  },
+  {
+    "korean": "산양",
+    "initial": "ㅅㅇ",
+    "category": "동물"
+  },
+  {
+    "korean": "밍크고래",
+    "initial": "ㅁㅋㄱㄹ",
+    "category": "동물"
+  },
+  {
+    "korean": "혹등고래",
+    "initial": "ㅎㄷㄱㄹ",
+    "category": "동물"
+  },
+  {
+    "korean": "돌고래",
+    "initial": "ㄷㄱㄹ",
+    "category": "동물"
+  },
+  {
+    "korean": "범고래",
+    "initial": "ㅂㄱㄹ",
+    "category": "동물"
+  },
+  {
+    "korean": "흰돌고래",
+    "initial": "ㅎㄷㄱㄹ",
+    "category": "동물"
+  },
+  {
+    "korean": "말향고래",
+    "initial": "ㅁㅎㄱㄹ",
+    "category": "동물"
+  },
+  {
+    "korean": "멧토끼",
+    "initial": "ㅁㅌㄲ",
+    "category": "동물"
+  },
+  {
+    "korean": "청설모",
+    "initial": "ㅊㅅㅁ",
+    "category": "동물"
+  },
+  {
+    "korean": "생쥐",
+    "initial": "ㅅㅈ",
+    "category": "동물"
+  },
+  {
+    "korean": "집쥐",
+    "initial": "ㅈㅈ",
+    "category": "동물"
+  },
+  {
+    "korean": "뉴트리아",
+    "initial": "ㄴㅌㄹㅇ",
+    "category": "동물"
+  },
+  {
+    "korean": "두더지",
+    "initial": "ㄷㄷㅈ",
+    "category": "동물"
+  },
+  {
+    "korean": "늑대",
+    "initial": "ㄴㄷ",
+    "category": "동물"
+  },
+  {
+    "korean": "반달가슴곰",
+    "initial": "ㅂㄷㄱㅅㄱ",
+    "category": "동물"
+  },
+  {
+    "korean": "여우",
+    "initial": "ㅇㅇ",
+    "category": "동물"
+  },
+  {
+    "korean": "호랑이",
+    "initial": "ㅎㄹㅇ",
+    "category": "동물"
+  },
+  {
+    "korean": "하늘다람쥐",
+    "initial": "ㅎㄴㄷㄹㅈ",
+    "category": "동물"
+  },
+  {
+    "korean": "표범",
+    "initial": "ㅍㅂ",
+    "category": "동물"
+  },
+  {
+    "korean": "다람쥐",
+    "initial": "ㄷㄹㅈ",
+    "category": "동물"
+  },
+  {
+    "korean": "메추라기",
+    "initial": "ㅁㅊㄹㄱ",
+    "category": "동물"
+  },
+  {
+    "korean": "꿩",
+    "initial": "ㄲ",
+    "category": "동물"
+  },
+  {
+    "korean": "큰기러기",
+    "initial": "ㅋㄱㄹㄱ",
+    "category": "동물"
+  },
+  {
+    "korean": "고니",
+    "initial": "ㄱㄴ",
+    "category": "동물"
+  },
+  {
+    "korean": "원앙",
+    "initial": "ㅇㅇ",
+    "category": "동물"
+  },
+  {
+    "korean": "청둥오리",
+    "initial": "ㅊㄷㅇㄹ",
+    "category": "동물"
+  },
+  {
+    "korean": "쇠오리",
+    "initial": "ㅅㅇㄹ",
+    "category": "동물"
+  },
+  {
+    "korean": "논병아리",
+    "initial": "ㄴㅂㅇㄹ",
+    "category": "동물"
+  },
+  {
+    "korean": "황새",
+    "initial": "ㅎㅅ",
+    "category": "동물"
+  },
+  {
+    "korean": "따오기",
+    "initial": "ㄸㅇㄱ",
+    "category": "동물"
+  },
+  {
+    "korean": "저어새",
+    "initial": "ㅈㅇㅅ",
+    "category": "동물"
+  },
+  {
+    "korean": "해오라기",
+    "initial": "ㅎㅇㄹㄱ",
+    "category": "동물"
+  },
+  {
+    "korean": "황로",
+    "initial": "ㅎㄹ",
+    "category": "동물"
+  },
+  {
+    "korean": "왜가리",
+    "initial": "ㅇㄱㄹ",
+    "category": "동물"
+  },
+  {
+    "korean": "쇠백로",
+    "initial": "ㅅㅂㄹ",
+    "category": "동물"
+  },
+  {
+    "korean": "가마우지",
+    "initial": "ㄱㅁㅇㅈ",
+    "category": "동물"
+  },
+  {
+    "korean": "황조롱이",
+    "initial": "ㅎㅈㄹㅇ",
+    "category": "동물"
+  },
+  {
+    "korean": "매",
+    "initial": "ㅁ",
+    "category": "동물"
+  },
+  {
+    "korean": "물수리",
+    "initial": "ㅁㅅㄹ",
+    "category": "동물"
+  },
+  {
+    "korean": "솔개",
+    "initial": "ㅅㄱ",
+    "category": "동물"
+  },
+  {
+    "korean": "흰꼬리수리",
+    "initial": "ㅎㄲㄹㅅㄹ",
+    "category": "동물"
+  },
+  {
+    "korean": "참수리",
+    "initial": "ㅊㅅㄹ",
+    "category": "동물"
+  },
+  {
+    "korean": "독수리",
+    "initial": "ㄷㅅㄹ",
+    "category": "동물"
+  },
+  {
+    "korean": "새매",
+    "initial": "ㅅㅁ",
+    "category": "동물"
+  },
+  {
+    "korean": "참매",
+    "initial": "ㅊㅁ",
+    "category": "동물"
+  },
+  {
+    "korean": "검독수리",
+    "initial": "ㄱㄷㅅㄹ",
+    "category": "동물"
+  },
+  {
+    "korean": "두루미",
+    "initial": "ㄷㄹㅁ",
+    "category": "동물"
+  },
+  {
+    "korean": "물닭",
+    "initial": "ㅁㄷ",
+    "category": "동물"
+  },
+  {
+    "korean": "갈매기",
+    "initial": "ㄱㅁㄱ",
+    "category": "동물"
+  },
+  {
+    "korean": "제비갈매기",
+    "initial": "ㅈㅂㄱㅁㄱ",
+    "category": "동물"
+  },
+  {
+    "korean": "멧비둘기",
+    "initial": "ㅁㅂㄷㄱ",
+    "category": "동물"
+  },
+  {
+    "korean": "뻐꾸기",
+    "initial": "ㅃㄲㄱ",
+    "category": "동물"
+  },
+  {
+    "korean": "소쩍새",
+    "initial": "ㅅㅉㅅ",
+    "category": "동물"
+  },
+  {
+    "korean": "수리부엉이",
+    "initial": "ㅅㄹㅂㅇㅇ",
+    "category": "동물"
+  },
+  {
+    "korean": "올빼미",
+    "initial": "ㅇㅃㅁ",
+    "category": "동물"
+  },
+  {
+    "korean": "파랑새",
+    "initial": "ㅍㄹㅅ",
+    "category": "동물"
+  },
+  {
+    "korean": "물총새",
+    "initial": "ㅁㅊㅅ",
+    "category": "동물"
+  },
+  {
+    "korean": "후투티",
+    "initial": "ㅎㅌㅌ",
+    "category": "동물"
+  },
+  {
+    "korean": "오색딱다구리",
+    "initial": "ㅇㅅㄸㄷㄱㄹ",
+    "category": "동물"
+  },
+  {
+    "korean": "까치",
+    "initial": "ㄲㅊ",
+    "category": "동물"
+  },
+  {
+    "korean": "까마귀",
+    "initial": "ㄲㅁㄱ",
+    "category": "동물"
+  },
+  {
+    "korean": "제비",
+    "initial": "ㅈㅂ",
+    "category": "동물"
+  },
+  {
+    "korean": "참새",
+    "initial": "ㅊㅅ",
+    "category": "동물"
+  },
+  {
+    "korean": "박새",
+    "initial": "ㅂㅅ",
+    "category": "동물"
+  },
+  {
+    "korean": "직박구리",
+    "initial": "ㅈㅂㄱㄹ",
+    "category": "동물"
+  },
+  {
+    "korean": "붉은바다거북",
+    "initial": "ㅂㅇㅂㄷㄱㅂ",
+    "category": "동물"
+  },
+  {
+    "korean": "푸른바다거북",
+    "initial": "ㅍㄹㅂㄷㄱㅂ",
+    "category": "동물"
+  },
+  {
+    "korean": "장수거북",
+    "initial": "ㅈㅅㄱㅂ",
+    "category": "동물"
+  },
+  {
+    "korean": "남생이",
+    "initial": "ㄴㅅㅇ",
+    "category": "동물"
+  },
+  {
+    "korean": "붉은귀거북",
+    "initial": "ㅂㅇㄱㄱㅂ",
+    "category": "동물"
+  },
+  {
+    "korean": "자라",
+    "initial": "ㅈㄹ",
+    "category": "동물"
+  },
+  {
+    "korean": "도마뱀",
+    "initial": "ㄷㅁㅂ",
+    "category": "동물"
+  },
+  {
+    "korean": "능구렁이",
+    "initial": "ㄴㄱㄹㅇ",
+    "category": "동물"
+  },
+  {
+    "korean": "구렁이",
+    "initial": "ㄱㄹㅇ",
+    "category": "동물"
+  },
+  {
+    "korean": "무자치",
+    "initial": "ㅁㅈㅊ",
+    "category": "동물"
+  },
+  {
+    "korean": "유혈목이",
+    "initial": "ㅇㅎㅁㅇ",
+    "category": "동물"
+  },
+  {
+    "korean": "바다뱀",
+    "initial": "ㅂㄷㅂ",
+    "category": "동물"
+  },
+  {
+    "korean": "살모사",
+    "initial": "ㅅㅁㅅ",
+    "category": "동물"
+  },
+  {
+    "korean": "까치살모사",
+    "initial": "ㄲㅊㅅㅁㅅ",
+    "category": "동물"
+  },
+  {
+    "korean": "쇠살모사",
+    "initial": "ㅅㅅㅁㅅ",
+    "category": "동물"
+  },
+  {
+    "korean": "도롱뇽",
+    "initial": "ㄷㄹㄴ",
+    "category": "동물"
+  },
+  {
+    "korean": "무당개구리",
+    "initial": "ㅁㄷㄱㄱㄹ",
+    "category": "동물"
+  },
+  {
+    "korean": "두꺼비",
+    "initial": "ㄷㄲㅂ",
+    "category": "동물"
+  },
+  {
+    "korean": "맹꽁이",
+    "initial": "ㅁㄲㅇ",
+    "category": "동물"
+  },
+  {
+    "korean": "참개구리",
+    "initial": "ㅊㄱㄱㄹ",
+    "category": "동물"
+  },
+  {
+    "korean": "옴개구리",
+    "initial": "ㅇㄱㄱㄹ",
+    "category": "동물"
+  },
+  {
+    "korean": "금개구리",
+    "initial": "ㄱㄱㄱㄹ",
+    "category": "동물"
+  },
+  {
+    "korean": "황소개구리",
+    "initial": "ㅎㅅㄱㄱㄹ",
+    "category": "동물"
+  },
+  {
+    "korean": "청개구리",
+    "initial": "ㅊㄱㄱㄹ",
+    "category": "동물"
+  },
+  {
+    "korean": "수원청개구리",
+    "initial": "ㅅㅇㅊㄱㄱㄹ",
+    "category": "동물"
+  },
+  {
+    "korean": "고래상어",
+    "initial": "ㄱㄹㅅㅇ",
+    "category": "동물"
+  },
+  {
+    "korean": "백상아리",
+    "initial": "ㅂㅅㅇㄹ",
+    "category": "동물"
+  },
+  {
+    "korean": "청상아리",
+    "initial": "ㅊㅅㅇㄹ",
+    "category": "동물"
+  },
+  {
+    "korean": "귀상어",
+    "initial": "ㄱㅅㅇ",
+    "category": "동물"
+  },
+  {
+    "korean": "홍어",
+    "initial": "ㅎㅇ",
+    "category": "동물"
+  },
+  {
+    "korean": "노랑가오리",
+    "initial": "ㄴㄹㄱㅇㄹ",
+    "category": "동물"
+  },
+  {
+    "korean": "전기가오리",
+    "initial": "ㅈㄱㄱㅇㄹ",
+    "category": "동물"
+  },
+  {
+    "korean": "붕장어",
+    "initial": "ㅂㅈㅇ",
+    "category": "동물"
+  },
+  {
+    "korean": "갯장어",
+    "initial": "ㄱㅈㅇ",
+    "category": "동물"
+  },
+  {
+    "korean": "먹장어",
+    "initial": "ㅁㅈㅇ",
+    "category": "동물"
+  },
+  {
+    "korean": "뱀장어",
+    "initial": "ㅂㅈㅇ",
+    "category": "동물"
+  },
+  {
+    "korean": "연어",
+    "initial": "ㅇㅇ",
+    "category": "동물"
+  },
+  {
+    "korean": "무지개송어",
+    "initial": "ㅁㅈㄱㅅㅇ",
+    "category": "동물"
+  },
+  {
+    "korean": "고등어",
+    "initial": "ㄱㄷㅇ",
+    "category": "동물"
+  },
+  {
+    "korean": "전갱이",
+    "initial": "ㅈㄱㅇ",
+    "category": "동물"
+  },
+  {
+    "korean": "꽁치",
+    "initial": "ㄲㅊ",
+    "category": "동물"
+  },
+  {
+    "korean": "멸치",
+    "initial": "ㅁㅊ",
+    "category": "동물"
+  },
+  {
+    "korean": "정어리",
+    "initial": "ㅈㅇㄹ",
+    "category": "동물"
+  },
+  {
+    "korean": "청어",
+    "initial": "ㅊㅇ",
+    "category": "동물"
+  },
+  {
+    "korean": "대구",
+    "initial": "ㄷㄱ",
+    "category": "동물"
+  },
+  {
+    "korean": "명태",
+    "initial": "ㅁㅌ",
+    "category": "동물"
+  },
+  {
+    "korean": "넙치",
+    "initial": "ㄴㅊ",
+    "category": "동물"
+  },
+  {
+    "korean": "도다리",
+    "initial": "ㄷㄷㄹ",
+    "category": "동물"
+  },
+  {
+    "korean": "농어",
+    "initial": "ㄴㅇ",
+    "category": "동물"
+  },
+  {
+    "korean": "조피볼락",
+    "initial": "ㅈㅍㅂㄹ",
+    "category": "동물"
+  },
+  {
+    "korean": "쏨뱅이",
+    "initial": "ㅆㅂㅇ",
+    "category": "동물"
+  },
+  {
+    "korean": "감성돔",
+    "initial": "ㄱㅅㄷ",
+    "category": "동물"
+  },
+  {
+    "korean": "참돔",
+    "initial": "ㅊㄷ",
+    "category": "동물"
+  },
+  {
+    "korean": "돌돔",
+    "initial": "ㄷㄷ",
+    "category": "동물"
+  },
+  {
+    "korean": "벵에돔",
+    "initial": "ㅂㅇㄷ",
+    "category": "동물"
+  },
+  {
+    "korean": "자주복",
+    "initial": "ㅈㅈㅂ",
+    "category": "동물"
+  },
+  {
+    "korean": "황복",
+    "initial": "ㅎㅂ",
+    "category": "동물"
+  },
+  {
+    "korean": "쥐치",
+    "initial": "ㅈㅊ",
+    "category": "동물"
+  },
+  {
+    "korean": "말쥐치",
+    "initial": "ㅁㅈㅊ",
+    "category": "동물"
+  },
+  {
+    "korean": "갈치",
+    "initial": "ㄱㅊ",
+    "category": "동물"
+  },
+  {
+    "korean": "삼치",
+    "initial": "ㅅㅊ",
+    "category": "동물"
+  },
+  {
+    "korean": "방어",
+    "initial": "ㅂㅇ",
+    "category": "동물"
+  },
+  {
+    "korean": "부시리",
+    "initial": "ㅂㅅㄹ",
+    "category": "동물"
+  },
+  {
+    "korean": "숭어",
+    "initial": "ㅅㅇ",
+    "category": "동물"
+  },
+  {
+    "korean": "짱뚱어",
+    "initial": "ㅉㄸㅇ",
+    "category": "동물"
+  },
+  {
+    "korean": "미꾸라지",
+    "initial": "ㅁㄲㄹㅈ",
+    "category": "동물"
+  },
+  {
+    "korean": "메기",
+    "initial": "ㅁㄱ",
+    "category": "동물"
+  },
+  {
+    "korean": "붕어",
+    "initial": "ㅂㅇ",
+    "category": "동물"
+  },
+  {
+    "korean": "잉어",
+    "initial": "ㅇㅇ",
+    "category": "동물"
+  },
+  {
+    "korean": "은어",
+    "initial": "ㅇㅇ",
+    "category": "동물"
+  }
+]
