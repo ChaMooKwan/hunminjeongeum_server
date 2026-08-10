@@ -10,7 +10,7 @@ fun main() {
 
     fruits.take(100).forEach {
         println(
-            "${it.english} → ${it.korean} → ${it.initial}"
+            "${it.korean} → ${it.initial}"
         )
     }
 }

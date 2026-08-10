@@ -1,502 +1,86 @@
 [
-  {
-    "korean": "가렴주구",
-    "initial": "ㄱㄹㅈㄱ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "각골난망",
-    "initial": "ㄱㄱㄴㅁ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "각자무치",
-    "initial": "ㄱㅈㅁㅊ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "감언이설",
-    "initial": "ㄱㅇㅇㅅ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "갑론을박",
-    "initial": "ㄱㄹㅇㅂ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "강구연월",
-    "initial": "ㄱㄱㅇㅇ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "개과천선",
-    "initial": "ㄱㄱㅊㅅ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "거두절미",
-    "initial": "ㄱㄷㅈㅁ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "건곤일척",
-    "initial": "ㄱㄱㅇㅊ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "결자해지",
-    "initial": "ㄱㅈㅎㅈ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "경거망동",
-    "initial": "ㄱㄱㅁㄷ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "경국지색",
-    "initial": "ㄱㄱㅈㅅ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "경천동지",
-    "initial": "ㄱㅊㄷㅈ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "계란유골",
-    "initial": "ㄱㄹㅇㄱ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "고군분투",
-    "initial": "ㄱㄱㅂㅌ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "고립무원",
-    "initial": "ㄱㄹㅁㅇ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "고진감래",
-    "initial": "ㄱㅈㄱㄹ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "과유불급",
-    "initial": "ㄱㅇㅂㄱ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "관포지교",
-    "initial": "ㄱㅍㅈㄱ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "괄목상대",
-    "initial": "ㄱㅁㅅㄷ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "교각살우",
-    "initial": "ㄱㄱㅅㅇ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "구사일생",
-    "initial": "ㄱㅅㅇㅅ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "군계일학",
-    "initial": "ㄱㄱㅇㅎ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "금상첨화",
-    "initial": "ㄱㅅㅊㅎ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "금시초문",
-    "initial": "ㄱㅅㅊㅁ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "금의환향",
-    "initial": "ㄱㅇㅎㅎ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "기고만장",
-    "initial": "ㄱㄱㅁㅈ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "기사회생",
-    "initial": "ㄱㅅㅎㅅ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "낭중지추",
-    "initial": "ㄴㅈㅈㅊ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "노심초사",
-    "initial": "ㄴㅅㅊㅅ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "다다익선",
-    "initial": "ㄷㄷㅇㅅ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "다반사",
-    "initial": "ㄷㅂㅅ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "대기만성",
-    "initial": "ㄷㄱㅁㅅ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "대동소이",
-    "initial": "ㄷㄷㅅㅇ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "독불장군",
-    "initial": "ㄷㅂㅈㄱ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "동고동락",
-    "initial": "ㄷㄱㄷㄹ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "동문서답",
-    "initial": "ㄷㅁㅅㄷ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "동병상련",
-    "initial": "ㄷㅂㅅㄹ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "동상이몽",
-    "initial": "ㄷㅅㅇㅁ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "등용문",
-    "initial": "ㄷㅇㅁ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "마이동풍",
-    "initial": "ㅁㅇㄷㅍ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "막상막하",
-    "initial": "ㅁㅅㅁㅎ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "망양지탄",
-    "initial": "ㅁㅇㅈㅌ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "맥수지탄",
-    "initial": "ㅁㅅㅈㅌ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "명경지수",
-    "initial": "ㅁㄱㅈㅅ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "명불허전",
-    "initial": "ㅁㅂㅎㅈ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "모순",
-    "initial": "ㅁㅅ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "무릉도원",
-    "initial": "ㅁㄹㄷㅇ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "무용지물",
-    "initial": "ㅁㅇㅈㅁ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "문전성시",
-    "initial": "ㅁㅈㅅㅅ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "박장대소",
-    "initial": "ㅂㅈㄷㅅ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "배은망덕",
-    "initial": "ㅂㅇㅁㄷ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "백년대계",
-    "initial": "ㅂㄴㄷㄱ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "백발백중",
-    "initial": "ㅂㅂㅂㅈ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "백전백승",
-    "initial": "ㅂㅈㅂㅅ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "부전자전",
-    "initial": "ㅂㅈㅈㅈ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "부화뇌동",
-    "initial": "ㅂㅎㄴㄷ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "불철주야",
-    "initial": "ㅂㅊㅈㅇ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "비일비재",
-    "initial": "ㅂㅇㅂㅈ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "사면초가",
-    "initial": "ㅅㅁㅊㄱ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "사상누각",
-    "initial": "ㅅㅅㄴㄱ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "사필귀정",
-    "initial": "ㅅㅍㄱㅈ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "살신성인",
-    "initial": "ㅅㅅㅅㅇ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "삼고초려",
-    "initial": "ㅅㄱㅊㄹ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "삼삼오오",
-    "initial": "ㅅㅅㅇㅇ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "새옹지마",
-    "initial": "ㅅㅇㅈㅁ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "선견지명",
-    "initial": "ㅅㄱㅈㅁ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "설상가상",
-    "initial": "ㅅㅅㄱㅅ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "소탐대실",
-    "initial": "ㅅㅌㄷㅅ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "속수무책",
-    "initial": "ㅅㅅㅁㅊ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "수수방관",
-    "initial": "ㅅㅅㅂㄱ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "순망치한",
-    "initial": "ㅅㅁㅊㅎ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "십시일반",
-    "initial": "ㅅㅅㅇㅂ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "아전인수",
-    "initial": "ㅇㅈㅇㅅ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "안하무인",
-    "initial": "ㅇㅎㅁㅇ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "양두구육",
-    "initial": "ㅇㄷㄱㅇ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "어부지리",
-    "initial": "ㅇㅂㅈㄹ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "역지사지",
-    "initial": "ㅇㅈㅅㅈ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "연목구어",
-    "initial": "ㅇㅁㄱㅇ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "오리무중",
-    "initial": "ㅇㄹㅁㅈ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "오매불망",
-    "initial": "ㅇㅁㅂㅁ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "오비이락",
-    "initial": "ㅇㅂㅇㄹ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "와신상담",
-    "initial": "ㅇㅅㅅㄷ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "외유내강",
-    "initial": "ㅇㅇㄴㄱ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "우공이산",
-    "initial": "ㅇㄱㅇㅅ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "유구무언",
-    "initial": "ㅇㄱㅁㅇ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "유비무환",
-    "initial": "ㅇㅂㅁㅎ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "유유상종",
-    "initial": "ㅇㅇㅅㅈ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "이심전심",
-    "initial": "ㅇㅅㅈㅅ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "일거양득",
-    "initial": "ㅇㄱㅇㄷ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "일석이조",
-    "initial": "ㅇㅅㅇㅈ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "자승자박",
-    "initial": "ㅈㅅㅈㅂ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "자업자득",
-    "initial": "ㅈㅇㅈㄷ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "적반하장",
-    "initial": "ㅈㅂㅎㅈ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "전화위복",
-    "initial": "ㅈㅎㅇㅂ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "조삼모사",
-    "initial": "ㅈㅅㅁㅅ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "죽마고우",
-    "initial": "ㅈㅁㄱㅇ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "천고마비",
-    "initial": "ㅊㄱㅁㅂ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "청출어람",
-    "initial": "ㅊㅊㅇㄹ",
-    "category": "사자성어"
-  },
-  {
-    "korean": "호사다마",
-    "initial": "ㅎㅅㄷㅁ",
-    "category": "사자성어"
-  }
+  {"korean":"가렴주구","initial":"ㄱㄹㅈㄱ","category":"사자성어"},
+  {"korean":"각골난망","initial":"ㄱㄱㄴㅁ","category":"사자성어"},
+  {"korean":"감언이설","initial":"ㄱㅇㅇㅅ","category":"사자성어"},
+  {"korean":"갑론을박","initial":"ㄱㄹㅇㅂ","category":"사자성어"},
+  {"korean":"개과천선","initial":"ㄱㄱㅊㅅ","category":"사자성어"},
+  {"korean":"거두절미","initial":"ㄱㄷㅈㅁ","category":"사자성어"},
+  {"korean":"건곤일척","initial":"ㄱㄱㅇㅊ","category":"사자성어"},
+  {"korean":"결자해지","initial":"ㄱㅈㅎㅈ","category":"사자성어"},
+  {"korean":"경거망동","initial":"ㄱㄱㅁㄷ","category":"사자성어"},
+  {"korean":"경국지색","initial":"ㄱㄱㅈㅅ","category":"사자성어"},
+  {"korean":"고군분투","initial":"ㄱㄱㅂㅌ","category":"사자성어"},
+  {"korean":"고립무원","initial":"ㄱㄹㅁㅇ","category":"사자성어"},
+  {"korean":"고진감래","initial":"ㄱㅈㄱㄹ","category":"사자성어"},
+  {"korean":"과유불급","initial":"ㄱㅇㅂㄱ","category":"사자성어"},
+  {"korean":"관포지교","initial":"ㄱㅍㅈㄱ","category":"사자성어"},
+  {"korean":"괄목상대","initial":"ㄱㅁㅅㄷ","category":"사자성어"},
+  {"korean":"구사일생","initial":"ㄱㅅㅇㅅ","category":"사자성어"},
+  {"korean":"군계일학","initial":"ㄱㄱㅇㅎ","category":"사자성어"},
+  {"korean":"금상첨화","initial":"ㄱㅅㅊㅎ","category":"사자성어"},
+  {"korean":"금시초문","initial":"ㄱㅅㅊㅁ","category":"사자성어"},
+  {"korean":"금의환향","initial":"ㄱㅇㅎㅎ","category":"사자성어"},
+  {"korean":"기고만장","initial":"ㄱㄱㅁㅈ","category":"사자성어"},
+  {"korean":"기사회생","initial":"ㄱㅅㅎㅅ","category":"사자성어"},
+  {"korean":"노심초사","initial":"ㄴㅅㅊㅅ","category":"사자성어"},
+  {"korean":"다다익선","initial":"ㄷㄷㅇㅅ","category":"사자성어"},
+  {"korean":"대기만성","initial":"ㄷㄱㅁㅅ","category":"사자성어"},
+  {"korean":"대동소이","initial":"ㄷㄷㅅㅇ","category":"사자성어"},
+  {"korean":"독불장군","initial":"ㄷㅂㅈㄱ","category":"사자성어"},
+  {"korean":"동고동락","initial":"ㄷㄱㄷㄹ","category":"사자성어"},
+  {"korean":"동문서답","initial":"ㄷㅁㅅㄷ","category":"사자성어"},
+  {"korean":"동병상련","initial":"ㄷㅂㅅㄹ","category":"사자성어"},
+  {"korean":"동상이몽","initial":"ㄷㅅㅇㅁ","category":"사자성어"},
+  {"korean":"마이동풍","initial":"ㅁㅇㄷㅍ","category":"사자성어"},
+  {"korean":"막상막하","initial":"ㅁㅅㅁㅎ","category":"사자성어"},
+  {"korean":"명불허전","initial":"ㅁㅂㅎㅈ","category":"사자성어"},
+  {"korean":"무릉도원","initial":"ㅁㄹㄷㅇ","category":"사자성어"},
+  {"korean":"무용지물","initial":"ㅁㅇㅈㅁ","category":"사자성어"},
+  {"korean":"문전성시","initial":"ㅁㅈㅅㅅ","category":"사자성어"},
+  {"korean":"박장대소","initial":"ㅂㅈㄷㅅ","category":"사자성어"},
+  {"korean":"배은망덕","initial":"ㅂㅇㅁㄷ","category":"사자성어"},
+  {"korean":"백년대계","initial":"ㅂㄴㄷㄱ","category":"사자성어"},
+  {"korean":"백발백중","initial":"ㅂㅂㅂㅈ","category":"사자성어"},
+  {"korean":"백전백승","initial":"ㅂㅈㅂㅅ","category":"사자성어"},
+  {"korean":"부전자전","initial":"ㅂㅈㅈㅈ","category":"사자성어"},
+  {"korean":"부화뇌동","initial":"ㅂㅎㄴㄷ","category":"사자성어"},
+  {"korean":"불철주야","initial":"ㅂㅊㅈㅇ","category":"사자성어"},
+  {"korean":"비일비재","initial":"ㅂㅇㅂㅈ","category":"사자성어"},
+  {"korean":"사면초가","initial":"ㅅㅁㅊㄱ","category":"사자성어"},
+  {"korean":"사상누각","initial":"ㅅㅅㄴㄱ","category":"사자성어"},
+  {"korean":"사필귀정","initial":"ㅅㅍㄱㅈ","category":"사자성어"},
+  {"korean":"살신성인","initial":"ㅅㅅㅅㅇ","category":"사자성어"},
+  {"korean":"삼고초려","initial":"ㅅㄱㅊㄹ","category":"사자성어"},
+  {"korean":"삼삼오오","initial":"ㅅㅅㅇㅇ","category":"사자성어"},
+  {"korean":"새옹지마","initial":"ㅅㅇㅈㅁ","category":"사자성어"},
+  {"korean":"선견지명","initial":"ㅅㄱㅈㅁ","category":"사자성어"},
+  {"korean":"설상가상","initial":"ㅅㅅㄱㅅ","category":"사자성어"},
+  {"korean":"소탐대실","initial":"ㅅㅌㄷㅅ","category":"사자성어"},
+  {"korean":"속수무책","initial":"ㅅㅅㅁㅊ","category":"사자성어"},
+  {"korean":"수수방관","initial":"ㅅㅅㅂㄱ","category":"사자성어"},
+  {"korean":"십시일반","initial":"ㅅㅅㅇㅂ","category":"사자성어"},
+  {"korean":"아전인수","initial":"ㅇㅈㅇㅅ","category":"사자성어"},
+  {"korean":"안하무인","initial":"ㅇㅎㅁㅇ","category":"사자성어"},
+  {"korean":"어부지리","initial":"ㅇㅂㅈㄹ","category":"사자성어"},
+  {"korean":"역지사지","initial":"ㅇㅈㅅㅈ","category":"사자성어"},
+  {"korean":"오리무중","initial":"ㅇㄹㅁㅈ","category":"사자성어"},
+  {"korean":"오매불망","initial":"ㅇㅁㅂㅁ","category":"사자성어"},
+  {"korean":"오비이락","initial":"ㅇㅂㅇㄹ","category":"사자성어"},
+  {"korean":"와신상담","initial":"ㅇㅅㅅㄷ","category":"사자성어"},
+  {"korean":"외유내강","initial":"ㅇㅇㄴㄱ","category":"사자성어"},
+  {"korean":"우공이산","initial":"ㅇㄱㅇㅅ","category":"사자성어"},
+  {"korean":"유비무환","initial":"ㅇㅂㅁㅎ","category":"사자성어"},
+  {"korean":"유유상종","initial":"ㅇㅇㅅㅈ","category":"사자성어"},
+  {"korean":"이심전심","initial":"ㅇㅅㅈㅅ","category":"사자성어"},
+  {"korean":"일거양득","initial":"ㅇㄱㅇㄷ","category":"사자성어"},
+  {"korean":"일석이조","initial":"ㅇㅅㅇㅈ","category":"사자성어"},
+  {"korean":"자승자박","initial":"ㅈㅅㅈㅂ","category":"사자성어"},
+  {"korean":"자업자득","initial":"ㅈㅇㅈㄷ","category":"사자성어"},
+  {"korean":"적반하장","initial":"ㅈㅂㅎㅈ","category":"사자성어"},
+  {"korean":"전화위복","initial":"ㅈㅎㅇㅂ","category":"사자성어"},
+  {"korean":"조삼모사","initial":"ㅈㅅㅁㅅ","category":"사자성어"},
+  {"korean":"죽마고우","initial":"ㅈㅁㄱㅇ","category":"사자성어"},
+  {"korean":"천고마비","initial":"ㅊㄱㅁㅂ","category":"사자성어"},
+  {"korean":"청출어람","initial":"ㅊㅊㅇㄹ","category":"사자성어"},
+  {"korean":"호사다마","initial":"ㅎㅅㄷㅁ","category":"사자성어"}
 ]

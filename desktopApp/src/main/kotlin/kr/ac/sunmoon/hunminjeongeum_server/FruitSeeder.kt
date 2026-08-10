@@ -24,6 +24,7 @@ fun main() = runBlocking {
             }
             .map { it.trim() }
             .filter { it.isNotBlank() }
+            .filter { it. length <= 5 }
             .distinct()
             .sorted()
             .map { fruitName ->

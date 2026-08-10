@@ -18,7 +18,11 @@ fun main() = runBlocking {
 
     // 1. 음식 API 호출
     val response = api.getFoods()
-
+    // API 호출시 에러 발생
+    if (response == null) {
+        println("음식 API 응답 실패")
+        return@runBlocking
+    }
     // 2. 음식 이름 정리
     val foodNames = response.body.items.item
         .map{
@@ -27,6 +31,7 @@ fun main() = runBlocking {
                 .trim()
         }
         .filter{it.isNotBlank()}
+        .filter { it. length <= 5 }
         .distinct()
         .sorted()
         .take(100)

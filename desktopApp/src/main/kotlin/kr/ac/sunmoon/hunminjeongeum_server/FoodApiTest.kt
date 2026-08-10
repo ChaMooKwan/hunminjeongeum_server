@@ -10,6 +10,10 @@ fun main() = runBlocking {
     )
 
     val response = api.getFoods()
+    if(response == null){
+        println("API 응답 실패")
+        return@runBlocking
+    }
 
     val foodNames = response.body.items.item
         .map{it.foodNm
