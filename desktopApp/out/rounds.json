@@ -1,0 +1,146 @@
+[
+    {
+        "word_id": 1370,
+        "word": "사골국",
+        "wordQuiz": "ㅅㄱㄱ",
+        "quizCategory": 3,
+        "quiz_category_name": "음식",
+        "easyHint": "",
+        "normalHint": "",
+        "hardHint": "",
+        "easyWordHint": "ㅅ골ㄱ",
+        "normalWordHint": "",
+        "cues": [
+            {
+                "kind": "WORD_1",
+                "remainingSec": 15
+            }
+        ],
+        "degraded": true,
+        "note": "시간 초과(6000ms) - 특징힌트 전멸 (후보 1개 전부 탈락)",
+        "hint_source": "NONE",
+        "slot_promoted": false,
+        "generated_by": "gpt-4.1-nano/v6",
+        "latency_ms": 6042
+    },
+    {
+        "word_id": 1356,
+        "word": "닭발볶음",
+        "wordQuiz": "ㄷㅂㅂㅇ",
+        "quizCategory": 3,
+        "quiz_category_name": "음식",
+        "easyHint": "",
+        "normalHint": "",
+        "hardHint": "",
+        "easyWordHint": "ㄷㅂㅂ음",
+        "normalWordHint": "닭ㅂㅂ음",
+        "cues": [
+            {
+                "kind": "WORD_1",
+                "remainingSec": 20
+            },
+            {
+                "kind": "WORD_2",
+                "remainingSec": 10
+            }
+        ],
+        "degraded": true,
+        "note": "시간 초과(6000ms) - 특징힌트 전멸 (후보 1개 전부 탈락)",
+        "hint_source": "NONE",
+        "slot_promoted": false,
+        "generated_by": "gpt-4.1-nano/v6",
+        "latency_ms": 6045
+    },
+    {
+        "word_id": 1363,
+        "word": "닭찜",
+        "wordQuiz": "ㄷㅉ",
+        "quizCategory": 3,
+        "quiz_category_name": "음식",
+        "easyHint": "집에서 자주 해먹는 인기 메뉴!",
+        "normalHint": "",
+        "hardHint": "",
+        "easyWordHint": "ㄷ찜",
+        "normalWordHint": "",
+        "cues": [
+            {
+                "kind": "EASY",
+                "remainingSec": 25
+            },
+            {
+                "kind": "WORD_1",
+                "remainingSec": 15
+            }
+        ],
+        "degraded": false,
+        "note": "",
+        "hint_source": "AI",
+        "slot_promoted": false,
+        "generated_by": "gpt-4.1-nano/v6",
+        "latency_ms": 3979
+    },
+    {
+        "word_id": 1373,
+        "word": "삼겹살구이",
+        "wordQuiz": "ㅅㄱㅅㄱㅇ",
+        "quizCategory": 3,
+        "quiz_category_name": "음식",
+        "easyHint": "고기 팬클럽의 핵심!",
+        "normalHint": "두툼한 고기를 숯불에 굽는 냄새~",
+        "hardHint": "",
+        "easyWordHint": "ㅅㄱㅅ구ㅇ",
+        "normalWordHint": "삼ㄱㅅ구ㅇ",
+        "cues": [
+            {
+                "kind": "EASY",
+                "remainingSec": 25
+            },
+            {
+                "kind": "WORD_1",
+                "remainingSec": 20
+            },
+            {
+                "kind": "NORMAL",
+                "remainingSec": 15
+            },
+            {
+                "kind": "WORD_2",
+                "remainingSec": 10
+            }
+        ],
+        "degraded": false,
+        "note": "슬롯 2/3 채움",
+        "hint_source": "AI",
+        "slot_promoted": false,
+        "generated_by": "gpt-4.1-nano/v6",
+        "latency_ms": 5692
+    },
+    {
+        "word_id": 1383,
+        "word": "새우무침",
+        "wordQuiz": "ㅅㅇㅁㅊ",
+        "quizCategory": 3,
+        "quiz_category_name": "음식",
+        "easyHint": "",
+        "normalHint": "",
+        "hardHint": "",
+        "easyWordHint": "ㅅㅇ무ㅊ",
+        "normalWordHint": "ㅅ우무ㅊ",
+        "cues": [
+            {
+                "kind": "WORD_1",
+                "remainingSec": 20
+            },
+            {
+                "kind": "WORD_2",
+                "remainingSec": 10
+            }
+        ],
+        "degraded": true,
+        "note": "특징힌트 전멸 (후보 6개 전부 탈락)",
+        "hint_source": "NONE",
+        "slot_promoted": false,
+        "generated_by": "gpt-4.1-nano/v6",
+        "latency_ms": 3436
+    }
+]
