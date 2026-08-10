@@ -8,8 +8,11 @@ import kr.ac.sunmoon.hunminjeongeum_server.data.supabase.QuizWordInsertDto
 import kr.ac.sunmoon.hunminjeongeum_server.data.supabase.QuizWordRepository
 
 fun main() = runBlocking {
+    val serviceKey = System.getenv("FOOD_API_KEY")
+        ?: error("FOOD_API_KEY 환경변수가 설정되지 않았습니다.")
+
     val api = FoodApiClient(
-        serviceKey = "fzOJwdZ5WM%2BI3astAfBG18w4BQFFuZcJOXKcwrFNPvBPS%2BfyXAwwGXzgqu1D2pJF6g9FPeoEtQGghDtt2i1PiA%3D%3D"
+        serviceKey = serviceKey
     )
 
     val repository = QuizWordRepository()

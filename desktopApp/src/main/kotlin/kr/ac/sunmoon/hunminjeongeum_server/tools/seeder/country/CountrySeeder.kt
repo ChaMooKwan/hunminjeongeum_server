@@ -3,14 +3,19 @@ package kr.ac.sunmoon.hunminjeongeum_server.tools.seeder.country
 import kr.ac.sunmoon.hunminjeongeum_server.core.util.KoreanInitial
 import kr.ac.sunmoon.hunminjeongeum_server.data.remote.countries.CountriesApiClient
 import kotlinx.coroutines.runBlocking
+import kr.ac.sunmoon.hunminjeongeum_server.data.remote.countries.Country
 import kr.ac.sunmoon.hunminjeongeum_server.data.supabase.QuizWordInsertDto
 import kr.ac.sunmoon.hunminjeongeum_server.data.supabase.QuizWordRepository
 
 // 국가 데이터를 받아와서 DB에 저장하는 기능
 fun main() = runBlocking {
+    val apiKey = System.getenv("COUNTRY_API_KEY")
+        ?: error("FOOD_API_KEY 환경변수가 설정되지 않았습니다.")
+
     val countriesApi = CountriesApiClient(
-        apiKey = "rc_live_62f9005831e44c2b9faf8fd375a778cd"
+        apiKey = apiKey
     )
+
     val repository = QuizWordRepository()
 
     // Supabase category 테이블의 국가 카테고리 ID
