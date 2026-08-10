@@ -1,70 +1,50 @@
 [
     {
-        "word_id": 37,
-        "word": "다람쥐",
-        "wordQuiz": "ㄷㄹㅈ",
-        "quizCategory": 4,
-        "quiz_category_name": "동물",
-        "easyHint": "나무 위에서 깡충깡충 뛰어요.",
-        "normalHint": "갈색과 회색으로 자주 보입니다.",
+        "word_id": 19,
+        "word": "네덜란드",
+        "wordQuiz": "ㄴㄷㄹㄷ",
+        "quizCategory": 2,
+        "quiz_category_name": "나라",
+        "easyHint": "튤립과 치즈, 풍차의 나라ㅋㅋ",
+        "normalHint": "자전거 도시, 치즈와 꽃의 연상!",
         "hardHint": "",
-        "easyWordHint": "다ㄹㅈ",
-        "normalWordHint": "",
+        "easyWordHint": "네ㄷㄹㄷ",
+        "normalWordHint": "네ㄷ란ㄷ",
         "cues": [
             {
                 "kind": "EASY",
                 "remainingSec": 25
             },
             {
-                "kind": "NORMAL",
+                "kind": "WORD_1",
                 "remainingSec": 20
             },
             {
-                "kind": "WORD_1",
+                "kind": "NORMAL",
                 "remainingSec": 15
+            },
+            {
+                "kind": "WORD_2",
+                "remainingSec": 10
             }
         ],
         "degraded": false,
-        "note": "",
+        "note": "슬롯 2/3 채움",
         "hint_source": "AI",
         "slot_promoted": false,
-        "generated_by": "gpt-4.1-nano/v5",
-        "latency_ms": 3009
+        "generated_by": "gpt-4.1-nano/v6",
+        "latency_ms": 3553
     },
     {
-        "word_id": 31,
-        "word": "말",
-        "wordQuiz": "ㅁ",
-        "quizCategory": 4,
-        "quiz_category_name": "동물",
-        "easyHint": "짧은 다리와 긴 목이 특징입니다.",
+        "word_id": 13,
+        "word": "미국",
+        "wordQuiz": "ㅁㄱ",
+        "quizCategory": 2,
+        "quiz_category_name": "나라",
+        "easyHint": "월드컵 응원가의 열광!",
         "normalHint": "",
         "hardHint": "",
-        "easyWordHint": "",
-        "normalWordHint": "",
-        "cues": [
-            {
-                "kind": "EASY",
-                "remainingSec": 25
-            }
-        ],
-        "degraded": false,
-        "note": "슬롯 1/1 채움 · 승격(특징힌트(하))",
-        "hint_source": "AI",
-        "slot_promoted": true,
-        "generated_by": "gpt-4.1-nano/v5",
-        "latency_ms": 3225
-    },
-    {
-        "word_id": 34,
-        "word": "토끼",
-        "wordQuiz": "ㅌㄲ",
-        "quizCategory": 4,
-        "quiz_category_name": "동물",
-        "easyHint": "귀가 쫑긋, 숨어서 콩콩 뛰어요.",
-        "normalHint": "",
-        "hardHint": "",
-        "easyWordHint": "ㅌ끼",
+        "easyWordHint": "ㅁ국",
         "normalWordHint": "",
         "cues": [
             {
@@ -80,20 +60,20 @@
         "note": "",
         "hint_source": "AI",
         "slot_promoted": false,
-        "generated_by": "gpt-4.1-nano/v5",
-        "latency_ms": 1569
+        "generated_by": "gpt-4.1-nano/v6",
+        "latency_ms": 2844
     },
     {
-        "word_id": 35,
-        "word": "사자",
-        "wordQuiz": "ㅅㅈ",
-        "quizCategory": 4,
-        "quiz_category_name": "동물",
-        "easyHint": "대여섯 발 달린 맹수입니다.",
-        "normalHint": "",
-        "hardHint": "",
-        "easyWordHint": "ㅅ자",
-        "normalWordHint": "",
+        "word_id": 20,
+        "word": "오스트리아",
+        "wordQuiz": "ㅇㅅㅌㄹㅇ",
+        "quizCategory": 2,
+        "quiz_category_name": "나라",
+        "easyHint": "클래식 음악과 비엔나의 도시!",
+        "normalHint": "알프스와 왈츠의 고향입니다.",
+        "hardHint": "유럽의 중심에 위치한 공화국입니다.",
+        "easyWordHint": "ㅇㅅㅌㄹ아",
+        "normalWordHint": "ㅇ스ㅌㄹ아",
         "cues": [
             {
                 "kind": "EASY",
@@ -101,38 +81,82 @@
             },
             {
                 "kind": "WORD_1",
-                "remainingSec": 15
-            }
-        ],
-        "degraded": false,
-        "note": "",
-        "hint_source": "AI",
-        "slot_promoted": false,
-        "generated_by": "gpt-4.1-nano/v5",
-        "latency_ms": 1549
-    },
-    {
-        "word_id": 33,
-        "word": "닭",
-        "wordQuiz": "ㄷ",
-        "quizCategory": 4,
-        "quiz_category_name": "동물",
-        "easyHint": "",
-        "normalHint": "대개 흰색 깃털이 주를 이룹니다.",
-        "hardHint": "",
-        "easyWordHint": "",
-        "normalWordHint": "",
-        "cues": [
+                "remainingSec": 20
+            },
             {
                 "kind": "NORMAL",
-                "remainingSec": 25
+                "remainingSec": 15
+            },
+            {
+                "kind": "WORD_2",
+                "remainingSec": 10
+            },
+            {
+                "kind": "HARD",
+                "remainingSec": 5
             }
         ],
         "degraded": false,
         "note": "",
         "hint_source": "AI",
         "slot_promoted": false,
-        "generated_by": "gpt-4.1-nano/v5",
-        "latency_ms": 1160
+        "generated_by": "gpt-4.1-nano/v6",
+        "latency_ms": 2214
+    },
+    {
+        "word_id": 14,
+        "word": "일본",
+        "wordQuiz": "ㅇㅂ",
+        "quizCategory": 2,
+        "quiz_category_name": "나라",
+        "easyHint": "사케와 애니의 나라ㅋㅋ",
+        "normalHint": "",
+        "hardHint": "",
+        "easyWordHint": "ㅇ본",
+        "normalWordHint": "",
+        "cues": [
+            {
+                "kind": "EASY",
+                "remainingSec": 25
+            },
+            {
+                "kind": "WORD_1",
+                "remainingSec": 15
+            }
+        ],
+        "degraded": false,
+        "note": "",
+        "hint_source": "AI",
+        "slot_promoted": false,
+        "generated_by": "gpt-4.1-nano/v6",
+        "latency_ms": 1025
+    },
+    {
+        "word_id": 15,
+        "word": "중국",
+        "wordQuiz": "ㅈㄱ",
+        "quizCategory": 2,
+        "quiz_category_name": "나라",
+        "easyHint": "붉은색이 확실한 나라! 와, 대박!",
+        "normalHint": "",
+        "hardHint": "",
+        "easyWordHint": "중ㄱ",
+        "normalWordHint": "",
+        "cues": [
+            {
+                "kind": "EASY",
+                "remainingSec": 25
+            },
+            {
+                "kind": "WORD_1",
+                "remainingSec": 15
+            }
+        ],
+        "degraded": false,
+        "note": "",
+        "hint_source": "AI",
+        "slot_promoted": false,
+        "generated_by": "gpt-4.1-nano/v6",
+        "latency_ms": 1590
     }
 ]
