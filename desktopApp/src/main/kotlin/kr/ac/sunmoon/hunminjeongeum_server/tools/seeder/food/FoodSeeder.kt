@@ -1,8 +1,9 @@
-package kr.ac.sunmoon.hunminjeongeum_server
+package kr.ac.sunmoon.hunminjeongeum_server.tools.seeder.food
 
 import kotlinx.coroutines.runBlocking
 import kr.ac.sunmoon.hunminjeongeum_server.core.util.KoreanInitial
 import kr.ac.sunmoon.hunminjeongeum_server.data.remote.foods.FoodApiClient
+import kr.ac.sunmoon.hunminjeongeum_server.data.remote.foods.FoodItem
 import kr.ac.sunmoon.hunminjeongeum_server.data.supabase.QuizWordInsertDto
 import kr.ac.sunmoon.hunminjeongeum_server.data.supabase.QuizWordRepository
 
@@ -15,16 +16,33 @@ fun main() = runBlocking {
 
     // Supabase category 테이블에서 음식 카테고리 ID
     val foodCategoryId = 3
+    // 여러 페이지에서 받은 음식 데이터 누적
+    val allitems = mutableListOf<FoodItem>()
 
-    // 1. 음식 API 호출
-    val response = api.getFoods()
-    // API 호출시 에러 발생
-    if (response == null) {
-        println("음식 API 응답 실패")
-        return@runBlocking
+    // 1. 1~10페이지까지 요청
+    for(page in 1..10){
+        println()
+        println(" ===== ${page}페이지 요청 ===== ")
+
+        val response = api.getFoods(
+            pageNo = page,
+            numOfRows = 100
+        )
+        if(response == null){
+            println("${page}페이지 API 응답 실패")
+            continue
+        }
+
+        val items = response.body.items.item
+
+        allitems.addAll(items)
+
+        println("${page}페이지 받은 개수 : ${items.size}")
+        println("현재 누적 개수 : ${allitems.size}")
     }
+
     // 2. 음식 이름 정리
-    val foodNames = response.body.items.item
+    val foodNames = allitems
         .map{
             it.foodNm
                 .substringBefore("(")

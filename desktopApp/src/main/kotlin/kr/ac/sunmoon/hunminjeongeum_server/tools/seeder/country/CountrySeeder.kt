@@ -1,4 +1,4 @@
-package kr.ac.sunmoon.hunminjeongeum_server
+package kr.ac.sunmoon.hunminjeongeum_server.tools.seeder.country
 
 import kr.ac.sunmoon.hunminjeongeum_server.core.util.KoreanInitial
 import kr.ac.sunmoon.hunminjeongeum_server.data.remote.countries.CountriesApiClient

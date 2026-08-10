@@ -8,7 +8,7 @@ data class QuizWordDto(
     val id: Int,
 
     @SerialName("category_id")
-    val quizCategory: Int, //
+    val quizCategory: Int,
 
     val word: String,
 

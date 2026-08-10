@@ -1,4 +1,4 @@
-package kr.ac.sunmoon.hunminjeongeum_server
+package kr.ac.sunmoon.hunminjeongeum_server.tools.test.fruitjson
 
 import kr.ac.sunmoon.hunminjeongeum_server.data.local.FruitJsonReader
 

@@ -13,7 +13,10 @@ class FoodApiClient(
     private val serviceKey: String
 ) {
 
-    suspend fun getFoods(): FoodResponse? {
+    suspend fun getFoods(
+        pageNo: Int,
+        numOfRows: Int = 100
+    ): FoodResponse? {
 
         val decodedKey = URLDecoder.decode(
             serviceKey,
@@ -24,8 +27,8 @@ class FoodApiClient(
             "https://api.data.go.kr/openapi/tn_pubr_public_nutri_food_info_api"
         ) {
             parameter("serviceKey", decodedKey)
-            parameter("pageNo", 1)
-            parameter("numOfRows", 100)
+            parameter("pageNo", pageNo)
+            parameter("numOfRows", numOfRows)
             parameter("type", "json")
         }
 
