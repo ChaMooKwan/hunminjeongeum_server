@@ -20,6 +20,8 @@ class Game {
             val question = repository.getRandomQuizWord(category) ?: QuizWordDto(1,1,"1","게임 클래스 확인")
             list.add(question)
         }
+        questions = list
+        index = 0
         return list
     }
 

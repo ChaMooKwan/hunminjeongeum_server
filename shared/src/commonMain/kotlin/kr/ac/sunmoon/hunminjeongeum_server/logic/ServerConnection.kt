@@ -70,8 +70,8 @@ class ServerConnection(
 
             thread(isDaemon = true) {
                 while (running) {
-                    val message = reader.readLine()
-                    if (message.contains("/startGame,")){
+                    val message = reader.readLine() ?: break
+                    if (message == "/startGame"){
                         startGame()
                     }
                     else if (message.contains("/hint,")){
@@ -80,17 +80,21 @@ class ServerConnection(
                     else if (message.contains("/chat,")){
                         println(message)
                         val chatMessage = encodedMessage(message)
+                        val currentQuestion = game.questions.getOrNull(game.getQ())
                         if (game.isStarted &&
-                            chatMessage.message == game.questions[game.getQ()].word){
+                            currentQuestion != null &&
+                            chatMessage.message == currentQuestion.word){
                             val i = game.userInfos.indexOfFirst{
                                 chatMessage.userName == it.userName
                             }
-                            game.userInfos[i].score += 10
-                            broadcastScores(game.userInfos)
-                            //문제 맞추는 이펙트 호출..? 은 클라이언트 쪽에서 알아서...
-                            game.nextQ()
-                            giveQuestion()
-                            print(message)
+                            if (i >= 0) {
+                                game.userInfos[i].score += 10
+                                broadcastScores(game.userInfos)
+                                //문제 맞추는 이펙트 호출..? 은 클라이언트 쪽에서 알아서...
+                                game.nextQ()
+                                giveQuestion()
+                                print(message)
+                            }
                         }
                         broadcastChat(chatMessage)
                     }
@@ -103,14 +107,15 @@ class ServerConnection(
     }
 
     private fun startGame() {
+        if (game.isStarted) return
         CoroutineScope(Dispatchers.IO).launch { // 단어 불러오기
-            game.getRandomQuiz(2,5)
+            game.getRandomQuiz(1,5)
             println("question added in the server!")
+            game.isStarted = true
+            broadcast("/playGame,") // 다음 화면으로 넘어가라고 신호를 주는 것
+            giveQuestion()
+            startTimer()
         }
-        game.isStarted = true
-        broadcast("/playGame,") // 다음 화면으로 넘어가라고 신호를 주는 것
-        giveQuestion()
-        startTimer()
     }
 
 
@@ -146,7 +151,7 @@ class ServerConnection(
     private fun broadcastScores(userInfos: List<UserInfo>) {
         val scoresMessage = StringBuilder("/score,")
         userInfos.forEach { userInfo ->
-            scoresMessage.append("${userInfo.userName}${userInfo.score},")
+            scoresMessage.append("${userInfo.userName}${'$'}${userInfo.score},")
         }
         val scoreMessage = scoresMessage.dropLast(1).toString()
         broadcast(scoreMessage)
@@ -174,6 +179,7 @@ class ServerConnection(
     }
 
     private fun giveQuestion(){
-        broadcast("/question,${game.questions[game.getQ()].wordQuiz}")
+        val question = game.questions.getOrNull(game.getQ()) ?: return
+        broadcast("/question,${question.wordQuiz}")
     }
 }
