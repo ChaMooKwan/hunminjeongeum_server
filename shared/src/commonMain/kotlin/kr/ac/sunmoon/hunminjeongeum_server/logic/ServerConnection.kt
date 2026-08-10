@@ -127,7 +127,7 @@ class ServerConnection(
     private fun timer(totalSeconds: Int = 300): Flow<Int> = flow {
         var remaining = totalSeconds
 
-        while (remaining >= 0) {
+        while (remaining >= 0 && game.isStarted) {
             emit(remaining) // 현재 남은 시간 반환
             delay(1000)    // 1초 대기
             remaining--
