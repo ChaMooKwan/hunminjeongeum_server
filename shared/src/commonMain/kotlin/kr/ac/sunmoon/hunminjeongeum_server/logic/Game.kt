@@ -11,6 +11,7 @@ class Game {
     var questions: MutableList<QuizWordDto> = mutableListOf()
     private var index = 0
     var isStarted = false
+    var isOver = false
     var userInfos = mutableListOf<UserInfo>()
 
     suspend fun getRandomQuiz(category: Int, times: Int): List<QuizWordDto> {
@@ -22,6 +23,7 @@ class Game {
         }
         questions = list
         index = 0
+        isOver = false
         return list
     }
 

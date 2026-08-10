@@ -92,7 +92,11 @@ class ServerConnection(
                                 broadcastScores(game.userInfos)
                                 //문제 맞추는 이펙트 호출..? 은 클라이언트 쪽에서 알아서...
                                 game.nextQ()
-                                giveQuestion()
+                                if (game.getQ() >= game.questions.size) {
+                                    finishGame()
+                                } else {
+                                    giveQuestion()
+                                }
                                 print(message)
                             }
                         }
@@ -134,6 +138,9 @@ class ServerConnection(
         CoroutineScope(Dispatchers.Default).launch {
             timer().collect { time ->
                 broadcast("/timer,${time}")
+                if (time == 0) {
+                    finishGame()
+                }
             }
         }
     }
@@ -181,5 +188,12 @@ class ServerConnection(
     private fun giveQuestion(){
         val question = game.questions.getOrNull(game.getQ()) ?: return
         broadcast("/question,${question.wordQuiz}")
+    }
+
+    private fun finishGame() {
+        if (game.isOver) return
+        game.isOver = true
+        game.isStarted = false
+        broadcast("/gameOver,")
     }
 }
