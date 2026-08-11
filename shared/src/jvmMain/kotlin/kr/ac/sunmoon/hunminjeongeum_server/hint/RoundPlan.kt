@@ -25,9 +25,9 @@ object HintLength {
     const val EASY_MIN = 2
     const val EASY_MAX = 20
     const val NORMAL_MIN = 2
-    const val NORMAL_MAX = 20
+    const val NORMAL_MAX = 30
     const val HARD_MIN = 2
-    const val HARD_MAX = 20
+    const val HARD_MAX = 32
 
     /** 난이도별 (하한, 상한). 초성힌트는 코드가 만들어 검사 대상이 아니므로 특징힌트만 있습니다. */
     fun rangeOf(kind: HintKind): IntRange = when (kind) {
