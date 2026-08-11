@@ -7,6 +7,7 @@ import kotlin.concurrent.thread
 import kotlinx.coroutines.*
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
+import kr.ac.sunmoon.hunminjeongeum_server.hint.getHint
 
 class ServerConnection(
     private val port: Int = 9999,
@@ -16,6 +17,10 @@ class ServerConnection(
     private lateinit var room: Room
     @Volatile
     private var running = true
+    @Volatile
+    private var hintRunning = false
+    private val hints = mutableListOf<List<String>>()
+    private var currentRound = 0
 
     private val game = Game()
     fun start() {
@@ -71,12 +76,10 @@ class ServerConnection(
             thread(isDaemon = true) {
                 while (running) {
                     val message = reader.readLine() ?: break
-                    if (message == "/startGame,"){
+                    if (message.contains("/startGame,")){
+                        println("received /startGame")
                         val list = message.split(',')
                         startGame(list[1].toInt())
-                    }
-                    else if (message.contains("/hint,")){
-                        // LLM API 사용해서 힌트 전송 "/hintAnswer,'
                     }
                     else if (message.contains("/chat,")){
                         println(message)
@@ -117,9 +120,12 @@ class ServerConnection(
             game.getRandomQuiz(category,5)
             println("question added in the server!")
             game.isStarted = true
-            broadcast("/playGame,") // 다음 화면으로 넘어가라고 신호를 주는 것
+            broadcast("/playGame,$category") // 다음 화면으로 넘어가라고 신호를 주는 것
             giveQuestion()
             startTimer()
+            for (i in 0..4){
+                hints.add(getHint(game.questions[i]))
+            }
         }
     }
 
@@ -141,6 +147,21 @@ class ServerConnection(
                 broadcast("/timer,${time}")
                 if (time == 0) {
                     finishGame()
+                }
+            }
+        }
+    }
+    private fun hintTimer(){
+        CoroutineScope(Dispatchers.Default).launch {
+            timer(60).collect { time ->
+                if (time == 40) {
+                    broadcast("/hint^easy^${hints[currentRound][0]}")
+                }
+                else if (time == 20){
+                    broadcast("/hint^normal^${hints[currentRound][1]}")
+                }
+                else if (time == 0){
+                    broadcast("/hint^hard^${hints[currentRound][2]}")
                 }
             }
         }
@@ -187,8 +208,12 @@ class ServerConnection(
     }
 
     private fun giveQuestion(){
+        hintRunning = false
         val question = game.questions.getOrNull(game.getQ()) ?: return
         broadcast("/question,${question.wordQuiz}")
+        hintTimer()
+        hintRunning = true
+        currentRound++
     }
 
     private fun finishGame() {
@@ -196,5 +221,7 @@ class ServerConnection(
         game.isOver = true
         game.isStarted = false
         broadcast("/gameOver,")
+        hintRunning = false
+        currentRound = 0
     }
 }
