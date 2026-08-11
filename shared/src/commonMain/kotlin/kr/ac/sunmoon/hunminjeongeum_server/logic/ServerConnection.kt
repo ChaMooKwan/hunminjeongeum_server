@@ -164,6 +164,7 @@ class ServerConnection(
                     broadcast("/hint^hard^${hints[currentRound][2]}")
                 }
             }
+            currentRound++
         }
     }
 
@@ -213,7 +214,6 @@ class ServerConnection(
         broadcast("/question,${question.wordQuiz}")
         hintTimer()
         hintRunning = true
-        currentRound++
     }
 
     private fun finishGame() {
