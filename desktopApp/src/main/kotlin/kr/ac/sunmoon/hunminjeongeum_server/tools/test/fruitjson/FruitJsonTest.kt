@@ -1,4 +1,4 @@
-package kr.ac.sunmoon.hunminjeongeum_server
+package kr.ac.sunmoon.hunminjeongeum_server.tools.test.fruitjson
 
 import kr.ac.sunmoon.hunminjeongeum_server.data.local.FruitJsonReader
 
@@ -10,7 +10,7 @@ fun main() {
 
     fruits.take(100).forEach {
         println(
-            "${it.english} → ${it.korean} → ${it.initial}"
+            "${it.korean} → ${it.initial}"
         )
     }
 }

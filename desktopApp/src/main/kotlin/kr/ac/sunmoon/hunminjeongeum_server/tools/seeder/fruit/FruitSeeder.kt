@@ -1,4 +1,4 @@
-package kr.ac.sunmoon.hunminjeongeum_server
+package kr.ac.sunmoon.hunminjeongeum_server.tools.seeder.fruit
 
 
 import kr.ac.sunmoon.hunminjeongeum_server.core.util.KoreanInitial
@@ -24,6 +24,7 @@ fun main() = runBlocking {
             }
             .map { it.trim() }
             .filter { it.isNotBlank() }
+            .filter { it. length <= 5 }
             .distinct()
             .sorted()
             .map { fruitName ->

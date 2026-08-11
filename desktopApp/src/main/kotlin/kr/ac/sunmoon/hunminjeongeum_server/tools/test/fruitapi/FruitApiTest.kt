@@ -1,4 +1,4 @@
-package kr.ac.sunmoon.hunminjeongeum_server
+package kr.ac.sunmoon.hunminjeongeum_server.tools.test.fruitapi
 
 import  kr.ac.sunmoon.hunminjeongeum_server.data.remote.fruityvice.FruityviceApiClient
 import kotlinx.coroutines.runBlocking

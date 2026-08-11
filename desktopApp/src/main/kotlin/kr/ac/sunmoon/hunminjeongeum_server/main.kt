@@ -4,8 +4,11 @@ import kr.ac.sunmoon.hunminjeongeum_server.data.remote.countries.CountriesApiCli
 import kotlinx.coroutines.runBlocking
 
 fun main() = runBlocking {
+    val apiKey = System.getenv("COUNTRY_API_KEY")
+        ?: error("COUNTRY_API_KEY 환경변수가 설정되지 않았습니다.")
+
     val api = CountriesApiClient(
-        apiKey = "rc_live_62f9005831e44c2b9faf8fd375a778cd"
+        apiKey = apiKey
     )
 
     try {

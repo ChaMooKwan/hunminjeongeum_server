@@ -1,4 +1,4 @@
-package kr.ac.sunmoon.hunminjeongeum_server
+package kr.ac.sunmoon.hunminjeongeum_server.tools.seeder.idiom
 
 import kotlinx.coroutines.runBlocking
 import kr.ac.sunmoon.hunminjeongeum_server.core.util.KoreanInitial

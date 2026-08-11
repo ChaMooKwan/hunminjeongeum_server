@@ -1,0 +1,166 @@
+[
+    {
+        "word_id": 1396,
+        "word": "설렁탕",
+        "wordQuiz": "ㅅㄹㅌ",
+        "quizCategory": 3,
+        "quiz_category_name": "음식",
+        "easyHint": "국물 한 숟가락에 감탄!",
+        "normalHint": "걸쭉한 국물에 고기와 함께~",
+        "hardHint": "",
+        "easyWordHint": "설ㄹㅌ",
+        "normalWordHint": "",
+        "cues": [
+            {
+                "kind": "EASY",
+                "remainingSec": 25
+            },
+            {
+                "kind": "NORMAL",
+                "remainingSec": 20
+            },
+            {
+                "kind": "WORD_1",
+                "remainingSec": 15
+            }
+        ],
+        "degraded": false,
+        "note": "",
+        "hint_source": "AI",
+        "slot_promoted": false,
+        "generated_by": "gpt-4.1-nano/v6",
+        "latency_ms": 1778
+    },
+    {
+        "word_id": 1384,
+        "word": "새우볶음",
+        "wordQuiz": "ㅅㅇㅂㅇ",
+        "quizCategory": 3,
+        "quiz_category_name": "음식",
+        "easyHint": "바다의 작은 슈퍼스타ㅋㅋ",
+        "normalHint": "",
+        "hardHint": "한국의 대표적인 해물 요리입니다.",
+        "easyWordHint": "새ㅇㅂㅇ",
+        "normalWordHint": "새ㅇㅂ음",
+        "cues": [
+            {
+                "kind": "EASY",
+                "remainingSec": 25
+            },
+            {
+                "kind": "WORD_1",
+                "remainingSec": 20
+            },
+            {
+                "kind": "HARD",
+                "remainingSec": 15
+            },
+            {
+                "kind": "WORD_2",
+                "remainingSec": 10
+            }
+        ],
+        "degraded": false,
+        "note": "슬롯 2/3 채움 · 승격(특징힌트(하)→특징힌트(상))",
+        "hint_source": "AI",
+        "slot_promoted": true,
+        "generated_by": "gpt-4.1-nano/v6",
+        "latency_ms": 3168
+    },
+    {
+        "word_id": 1395,
+        "word": "선짓국",
+        "wordQuiz": "ㅅㅈㄱ",
+        "quizCategory": 3,
+        "quiz_category_name": "음식",
+        "easyHint": "이거 먹으면 어금니도 찡하게~!",
+        "normalHint": "",
+        "hardHint": "",
+        "easyWordHint": "ㅅ짓ㄱ",
+        "normalWordHint": "",
+        "cues": [
+            {
+                "kind": "EASY",
+                "remainingSec": 25
+            },
+            {
+                "kind": "WORD_1",
+                "remainingSec": 15
+            }
+        ],
+        "degraded": false,
+        "note": "슬롯 1/2 채움",
+        "hint_source": "AI",
+        "slot_promoted": false,
+        "generated_by": "gpt-4.1-nano/v6",
+        "latency_ms": 2759
+    },
+    {
+        "word_id": 1379,
+        "word": "삼치튀김",
+        "wordQuiz": "ㅅㅊㅌㄱ",
+        "quizCategory": 3,
+        "quiz_category_name": "음식",
+        "easyHint": "간장에 찍어 먹는 게 대세!",
+        "normalHint": "기름에 둥둥 떠서 냄새도 끝내주네!",
+        "hardHint": "",
+        "easyWordHint": "ㅅㅊㅌ김",
+        "normalWordHint": "삼ㅊㅌ김",
+        "cues": [
+            {
+                "kind": "EASY",
+                "remainingSec": 25
+            },
+            {
+                "kind": "WORD_1",
+                "remainingSec": 20
+            },
+            {
+                "kind": "NORMAL",
+                "remainingSec": 15
+            },
+            {
+                "kind": "WORD_2",
+                "remainingSec": 10
+            }
+        ],
+        "degraded": false,
+        "note": "슬롯 2/3 채움",
+        "hint_source": "AI",
+        "slot_promoted": false,
+        "generated_by": "gpt-4.1-nano/v6",
+        "latency_ms": 2557
+    },
+    {
+        "word_id": 1348,
+        "word": "닭곰탕",
+        "wordQuiz": "ㄷㄱㅌ",
+        "quizCategory": 3,
+        "quiz_category_name": "음식",
+        "easyHint": "이것도 우유와 잘 어울려!",
+        "normalHint": "",
+        "hardHint": "한국의 전통적인 육수 요리입니다.",
+        "easyWordHint": "ㄷㄱ탕",
+        "normalWordHint": "",
+        "cues": [
+            {
+                "kind": "EASY",
+                "remainingSec": 25
+            },
+            {
+                "kind": "HARD",
+                "remainingSec": 20
+            },
+            {
+                "kind": "WORD_1",
+                "remainingSec": 15
+            }
+        ],
+        "degraded": false,
+        "note": "슬롯 2/2 채움 · 승격(특징힌트(하)→특징힌트(상))",
+        "hint_source": "AI",
+        "slot_promoted": true,
+        "generated_by": "gpt-4.1-nano/v6",
+        "latency_ms": 1237
+    }
+]
