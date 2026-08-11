@@ -71,8 +71,9 @@ class ServerConnection(
             thread(isDaemon = true) {
                 while (running) {
                     val message = reader.readLine() ?: break
-                    if (message == "/startGame"){
-                        startGame()
+                    if (message == "/startGame,"){
+                        val list = message.split(',')
+                        startGame(list[1].toInt())
                     }
                     else if (message.contains("/hint,")){
                         // LLM API 사용해서 힌트 전송 "/hintAnswer,'
@@ -110,10 +111,10 @@ class ServerConnection(
         }
     }
 
-    private fun startGame() {
+    private fun startGame(category: Int) {
         if (game.isStarted) return
         CoroutineScope(Dispatchers.IO).launch { // 단어 불러오기
-            game.getRandomQuiz(1,5)
+            game.getRandomQuiz(category,5)
             println("question added in the server!")
             game.isStarted = true
             broadcast("/playGame,") // 다음 화면으로 넘어가라고 신호를 주는 것

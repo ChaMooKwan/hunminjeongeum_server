@@ -1,0 +1,166 @@
+[
+    {
+        "word_id": 1386,
+        "word": "새우젓국",
+        "wordQuiz": "ㅅㅇㅈㄱ",
+        "quizCategory": 3,
+        "quiz_category_name": "음식",
+        "easyHint": "새엄마보다 더 끌리는 맛ㅋㅋ",
+        "normalHint": "국물 한 숟가락에 바다를 담았어요!",
+        "hardHint": "",
+        "easyWordHint": "ㅅㅇㅈ국",
+        "normalWordHint": "새ㅇㅈ국",
+        "cues": [
+            {
+                "kind": "EASY",
+                "remainingSec": 25
+            },
+            {
+                "kind": "WORD_1",
+                "remainingSec": 20
+            },
+            {
+                "kind": "NORMAL",
+                "remainingSec": 15
+            },
+            {
+                "kind": "WORD_2",
+                "remainingSec": 10
+            }
+        ],
+        "degraded": false,
+        "note": "슬롯 2/3 채움",
+        "hint_source": "AI",
+        "slot_promoted": false,
+        "generated_by": "gpt-4.1-nano/v6",
+        "latency_ms": 2439
+    },
+    {
+        "word_id": 1395,
+        "word": "선짓국",
+        "wordQuiz": "ㅅㅈㄱ",
+        "quizCategory": 3,
+        "quiz_category_name": "음식",
+        "easyHint": "엄마 손맛 가득!",
+        "normalHint": "된장과 고기 냄새가 어우러져~",
+        "hardHint": "",
+        "easyWordHint": "선ㅈㄱ",
+        "normalWordHint": "",
+        "cues": [
+            {
+                "kind": "EASY",
+                "remainingSec": 25
+            },
+            {
+                "kind": "NORMAL",
+                "remainingSec": 20
+            },
+            {
+                "kind": "WORD_1",
+                "remainingSec": 15
+            }
+        ],
+        "degraded": false,
+        "note": "",
+        "hint_source": "AI",
+        "slot_promoted": false,
+        "generated_by": "gpt-4.1-nano/v6",
+        "latency_ms": 2428
+    },
+    {
+        "word_id": 1358,
+        "word": "닭볶음",
+        "wordQuiz": "ㄷㅂㅇ",
+        "quizCategory": 3,
+        "quiz_category_name": "음식",
+        "easyHint": "매운 양념에 푹 담근다!",
+        "normalHint": "뜨거운 향이 입안을 감싸요.",
+        "hardHint": "",
+        "easyWordHint": "ㄷ볶ㅇ",
+        "normalWordHint": "",
+        "cues": [
+            {
+                "kind": "EASY",
+                "remainingSec": 25
+            },
+            {
+                "kind": "NORMAL",
+                "remainingSec": 20
+            },
+            {
+                "kind": "WORD_1",
+                "remainingSec": 15
+            }
+        ],
+        "degraded": false,
+        "note": "",
+        "hint_source": "AI",
+        "slot_promoted": false,
+        "generated_by": "gpt-4.1-nano/v6",
+        "latency_ms": 2828
+    },
+    {
+        "word_id": 1361,
+        "word": "닭죽",
+        "wordQuiz": "ㄷㅈ",
+        "quizCategory": 3,
+        "quiz_category_name": "음식",
+        "easyHint": "이거 먹고 나면 포근해지는 느낌~",
+        "normalHint": "",
+        "hardHint": "",
+        "easyWordHint": "ㄷ죽",
+        "normalWordHint": "",
+        "cues": [
+            {
+                "kind": "EASY",
+                "remainingSec": 25
+            },
+            {
+                "kind": "WORD_1",
+                "remainingSec": 15
+            }
+        ],
+        "degraded": false,
+        "note": "",
+        "hint_source": "AI",
+        "slot_promoted": false,
+        "generated_by": "gpt-4.1-nano/v6",
+        "latency_ms": 1187
+    },
+    {
+        "word_id": 1347,
+        "word": "닭고기냉채",
+        "wordQuiz": "ㄷㄱㄱㄴㅊ",
+        "quizCategory": 3,
+        "quiz_category_name": "음식",
+        "easyHint": "한끼의 냉기 폭탄!~",
+        "normalHint": "바삭거림과 시원함이 만나는 맛있어요.",
+        "hardHint": "",
+        "easyWordHint": "ㄷㄱㄱ냉ㅊ",
+        "normalWordHint": "ㄷㄱ기냉ㅊ",
+        "cues": [
+            {
+                "kind": "EASY",
+                "remainingSec": 25
+            },
+            {
+                "kind": "WORD_1",
+                "remainingSec": 20
+            },
+            {
+                "kind": "NORMAL",
+                "remainingSec": 15
+            },
+            {
+                "kind": "WORD_2",
+                "remainingSec": 10
+            }
+        ],
+        "degraded": false,
+        "note": "슬롯 2/3 채움",
+        "hint_source": "AI",
+        "slot_promoted": false,
+        "generated_by": "gpt-4.1-nano/v6",
+        "latency_ms": 2554
+    }
+]
