@@ -17,12 +17,11 @@ class ServerConnection(
     private lateinit var room: Room
     @Volatile
     private var running = true
-    @Volatile
-    private var hintRunning = false
     private val hints = mutableListOf<List<String>>()
-    private var currentRound = 0
+    private var currentRound = -1
 
     private val game = Game()
+    private var job: Job? = null
     fun start() {
         serverSocket = ServerSocket(port)
         println("=== Chatting Server Start ===")
@@ -82,7 +81,6 @@ class ServerConnection(
                         startGame(list[1].toInt())
                     }
                     else if (message.contains("/chat,")){
-                        println(message)
                         val chatMessage = encodedMessage(message)
                         val currentQuestion = game.questions.getOrNull(game.getQ())
                         if (game.isStarted &&
@@ -152,7 +150,7 @@ class ServerConnection(
         }
     }
     private fun hintTimer(){
-        CoroutineScope(Dispatchers.Default).launch {
+        job = CoroutineScope(Dispatchers.Default).launch {
             timer(60).collect { time ->
                 if (time == 40) {
                     broadcast("/hint^easy^${hints[currentRound][0]}")
@@ -164,7 +162,6 @@ class ServerConnection(
                     broadcast("/hint^hard^${hints[currentRound][2]}")
                 }
             }
-            currentRound++
         }
     }
 
@@ -209,11 +206,11 @@ class ServerConnection(
     }
 
     private fun giveQuestion(){
-        hintRunning = false
+        currentRound++
+        if (job != null) job?.cancel()
         val question = game.questions.getOrNull(game.getQ()) ?: return
         broadcast("/question,${question.wordQuiz}")
         hintTimer()
-        hintRunning = true
     }
 
     private fun finishGame() {
@@ -221,7 +218,6 @@ class ServerConnection(
         game.isOver = true
         game.isStarted = false
         broadcast("/gameOver,")
-        hintRunning = false
         currentRound = 0
     }
 }
