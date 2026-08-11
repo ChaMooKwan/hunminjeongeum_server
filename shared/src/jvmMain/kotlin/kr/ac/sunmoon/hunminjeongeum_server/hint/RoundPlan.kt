@@ -22,12 +22,12 @@ const val ROUND_SECONDS: Int = 30
  * 규칙을 한곳(RoundPlan)에 모으는 이 파일의 원칙에 맞춥니다.
  */
 object HintLength {
-    const val EASY_MIN = 2
-    const val EASY_MAX = 20
-    const val NORMAL_MIN = 2
-    const val NORMAL_MAX = 30
-    const val HARD_MIN = 2
-    const val HARD_MAX = 32
+    const val EASY_MIN = 1
+    const val EASY_MAX = 22
+    const val NORMAL_MIN = 1
+    const val NORMAL_MAX = 22
+    const val HARD_MIN = 1
+    const val HARD_MAX = 24
 
     /** 난이도별 (하한, 상한). 초성힌트는 코드가 만들어 검사 대상이 아니므로 특징힌트만 있습니다. */
     fun rangeOf(kind: HintKind): IntRange = when (kind) {
