@@ -1,0 +1,162 @@
+[
+    {
+        "word_id": 19,
+        "word": "네덜란드",
+        "wordQuiz": "ㄴㄷㄹㄷ",
+        "quizCategory": 2,
+        "quiz_category_name": "나라",
+        "easyHint": "튤립과 치즈, 풍차의 나라ㅋㅋ",
+        "normalHint": "자전거 도시, 치즈와 꽃의 연상!",
+        "hardHint": "",
+        "easyWordHint": "네ㄷㄹㄷ",
+        "normalWordHint": "네ㄷ란ㄷ",
+        "cues": [
+            {
+                "kind": "EASY",
+                "remainingSec": 25
+            },
+            {
+                "kind": "WORD_1",
+                "remainingSec": 20
+            },
+            {
+                "kind": "NORMAL",
+                "remainingSec": 15
+            },
+            {
+                "kind": "WORD_2",
+                "remainingSec": 10
+            }
+        ],
+        "degraded": false,
+        "note": "슬롯 2/3 채움",
+        "hint_source": "AI",
+        "slot_promoted": false,
+        "generated_by": "gpt-4.1-nano/v6",
+        "latency_ms": 3553
+    },
+    {
+        "word_id": 13,
+        "word": "미국",
+        "wordQuiz": "ㅁㄱ",
+        "quizCategory": 2,
+        "quiz_category_name": "나라",
+        "easyHint": "월드컵 응원가의 열광!",
+        "normalHint": "",
+        "hardHint": "",
+        "easyWordHint": "ㅁ국",
+        "normalWordHint": "",
+        "cues": [
+            {
+                "kind": "EASY",
+                "remainingSec": 25
+            },
+            {
+                "kind": "WORD_1",
+                "remainingSec": 15
+            }
+        ],
+        "degraded": false,
+        "note": "",
+        "hint_source": "AI",
+        "slot_promoted": false,
+        "generated_by": "gpt-4.1-nano/v6",
+        "latency_ms": 2844
+    },
+    {
+        "word_id": 20,
+        "word": "오스트리아",
+        "wordQuiz": "ㅇㅅㅌㄹㅇ",
+        "quizCategory": 2,
+        "quiz_category_name": "나라",
+        "easyHint": "클래식 음악과 비엔나의 도시!",
+        "normalHint": "알프스와 왈츠의 고향입니다.",
+        "hardHint": "유럽의 중심에 위치한 공화국입니다.",
+        "easyWordHint": "ㅇㅅㅌㄹ아",
+        "normalWordHint": "ㅇ스ㅌㄹ아",
+        "cues": [
+            {
+                "kind": "EASY",
+                "remainingSec": 25
+            },
+            {
+                "kind": "WORD_1",
+                "remainingSec": 20
+            },
+            {
+                "kind": "NORMAL",
+                "remainingSec": 15
+            },
+            {
+                "kind": "WORD_2",
+                "remainingSec": 10
+            },
+            {
+                "kind": "HARD",
+                "remainingSec": 5
+            }
+        ],
+        "degraded": false,
+        "note": "",
+        "hint_source": "AI",
+        "slot_promoted": false,
+        "generated_by": "gpt-4.1-nano/v6",
+        "latency_ms": 2214
+    },
+    {
+        "word_id": 14,
+        "word": "일본",
+        "wordQuiz": "ㅇㅂ",
+        "quizCategory": 2,
+        "quiz_category_name": "나라",
+        "easyHint": "사케와 애니의 나라ㅋㅋ",
+        "normalHint": "",
+        "hardHint": "",
+        "easyWordHint": "ㅇ본",
+        "normalWordHint": "",
+        "cues": [
+            {
+                "kind": "EASY",
+                "remainingSec": 25
+            },
+            {
+                "kind": "WORD_1",
+                "remainingSec": 15
+            }
+        ],
+        "degraded": false,
+        "note": "",
+        "hint_source": "AI",
+        "slot_promoted": false,
+        "generated_by": "gpt-4.1-nano/v6",
+        "latency_ms": 1025
+    },
+    {
+        "word_id": 15,
+        "word": "중국",
+        "wordQuiz": "ㅈㄱ",
+        "quizCategory": 2,
+        "quiz_category_name": "나라",
+        "easyHint": "붉은색이 확실한 나라! 와, 대박!",
+        "normalHint": "",
+        "hardHint": "",
+        "easyWordHint": "중ㄱ",
+        "normalWordHint": "",
+        "cues": [
+            {
+                "kind": "EASY",
+                "remainingSec": 25
+            },
+            {
+                "kind": "WORD_1",
+                "remainingSec": 15
+            }
+        ],
+        "degraded": false,
+        "note": "",
+        "hint_source": "AI",
+        "slot_promoted": false,
+        "generated_by": "gpt-4.1-nano/v6",
+        "latency_ms": 1590
+    }
+]
