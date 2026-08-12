@@ -218,6 +218,7 @@ class ServerConnection(
         game.isOver = true
         game.isStarted = false
         broadcast("/gameOver,")
-        currentRound = 0
+        currentRound = -1
+        hints.clear()
     }
 }
